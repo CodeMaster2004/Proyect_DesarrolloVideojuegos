@@ -1,0 +1,1566 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.44f1 (101c91f3a8fb) revision 1055889'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'es' Physical Memory: 16069 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.44f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/USER/Desktop/Nueva carpeta/MyProyect
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49907
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/USER/Desktop/Nueva carpeta/MyProyect
+C:/Users/USER/Desktop/Nueva carpeta/MyProyect
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13324]  Target information:
+
+Player connection [13324]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2661211039 [EditorId] 2661211039 [Version] 1048832 [Id] WindowsEditor(7,AlexanderHerrera) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13324]  * "[IP] 192.168.96.128 [Port] 0 [Flags] 2 [Guid] 2661211039 [EditorId] 2661211039 [Version] 1048832 [Id] WindowsEditor(7,AlexanderHerrera) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13324] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13324] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 389.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.44f1 (101c91f3a8fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Desktop/Nueva carpeta/MyProyect/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a6)
+    Vendor:   Intel
+    VRAM:     8034 MB
+    Driver:   31.0.101.4255
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.773149 seconds.
+- Loaded All Assemblies, in 16.335 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.422 seconds
+Domain Reload Profiling: 16754ms
+	BeginReloadAssembly (13910ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (591ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (822ms)
+	LoadAllAssembliesAndSetupDomain (1000ms)
+		LoadAssemblies (13906ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (996ms)
+			TypeCache.Refresh (994ms)
+				TypeCache.ScanAssembly (227ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (422ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (364ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (187ms)
+			ProcessInitializeOnLoadMethodAttributes (75ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in 26.550 seconds
+Refreshing native plugins compatible for Editor in 4.41 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.205 seconds
+Domain Reload Profiling: 30737ms
+	BeginReloadAssembly (416ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (88ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (25904ms)
+		LoadAssemblies (24055ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2112ms)
+			TypeCache.Refresh (1942ms)
+				TypeCache.ScanAssembly (1759ms)
+			BuildScriptInfoCaches (138ms)
+			ResolveRequiredComponents (25ms)
+	FinalizeReload (4206ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2465ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (246ms)
+			ProcessInitializeOnLoadAttributes (911ms)
+			ProcessInitializeOnLoadMethodAttributes (1278ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 6.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6574 unused Assets / (7.3 MB). Loaded Objects now: 7218.
+Memory consumption went from 172.3 MB to 165.1 MB.
+Total: 18.943400 ms (FindLiveObjects: 1.076500 ms CreateObjectMapping: 1.249300 ms MarkObjects: 10.312100 ms  DeleteObjects: 6.303400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 750.410323 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1526cf67c1d1aaa9a72597cdbc7bb0b0') in 0.1710719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e3ee85287093c2e01e2184a29fd3edf') in 0.0046114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 236.867749 seconds.
+  path: Assets/Ninja/png
+  artifactKey: Guid(a0d1ad63ebc881e488eadcd6b62949d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png using Guid(a0d1ad63ebc881e488eadcd6b62949d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d886783c47ac52d25021297e2e5691d') in 0.0007083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059982 seconds.
+  path: Assets/Ninja/png/Attack__000.png
+  artifactKey: Guid(e75b762587bc1e84ab765b2b444ebc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Attack__000.png using Guid(e75b762587bc1e84ab765b2b444ebc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c12d977dd57d477956f52ddcbcd412a') in 0.1186974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Ninja/png/Idle__001.png
+  artifactKey: Guid(8e929492363624a449005071376c00d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Idle__001.png using Guid(8e929492363624a449005071376c00d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78f8314e90157f868c0a244ab5cbc7c5') in 0.0256284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Ninja/png/Attack__002.png
+  artifactKey: Guid(726539f4a081acd428a45c099ca8282d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Attack__002.png using Guid(726539f4a081acd428a45c099ca8282d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73df98b9a152bd5c5ee51c8173a92ab0') in 0.0282276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Ninja/png/Glide_009.png
+  artifactKey: Guid(5cc461dd85f1c7e47aedd29f94b7313f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Glide_009.png using Guid(5cc461dd85f1c7e47aedd29f94b7313f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b4016985c9b6c30e271092e68ddac90') in 0.0273703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ninja/png/Idle__008.png
+  artifactKey: Guid(7d0ae8010755902449df9c1465c37c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Idle__008.png using Guid(7d0ae8010755902449df9c1465c37c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c3fb94b78cbd966f9f6216039ec6f57') in 0.0275332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Ninja/png/Glide_001.png
+  artifactKey: Guid(349646c563b334348a23cb970de1ea00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Glide_001.png using Guid(349646c563b334348a23cb970de1ea00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ced8d2cebe59dfb613eb0035b0ce0306') in 0.0246795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ninja/png/Climb_009.png
+  artifactKey: Guid(5e1c881a917aedb44aa52777660bd6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Climb_009.png using Guid(5e1c881a917aedb44aa52777660bd6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bc2476604075e292e5129891daced93') in 0.0269825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ninja/png/Idle__004.png
+  artifactKey: Guid(2bff1de251dfd1a43986bb36ad2a5097) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Idle__004.png using Guid(2bff1de251dfd1a43986bb36ad2a5097) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91d07cb45b7b9d1fd88656010847a3e8') in 0.024861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Ninja/png/Attack__007.png
+  artifactKey: Guid(0bb3ad762940fe44792b9519a1fb0904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Attack__007.png using Guid(0bb3ad762940fe44792b9519a1fb0904) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9d2a3d7a8e3ade650c744fd48abd85a') in 0.0272986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ninja/png/Dead__007.png
+  artifactKey: Guid(82c5576639c567747b74f7353d79114f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Dead__007.png using Guid(82c5576639c567747b74f7353d79114f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c3612c417f41267fe85d52d0180667af') in 0.0309585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ninja/png/Idle__002.png
+  artifactKey: Guid(90ed25566bb82c24c8f5eab08fd8d8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Idle__002.png using Guid(90ed25566bb82c24c8f5eab08fd8d8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dab0e666045a2d8f0b7b1b7f21d319b') in 0.0277777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ninja/png/Climb_003.png
+  artifactKey: Guid(a18b87d0b1424a54da8991656451f301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Climb_003.png using Guid(a18b87d0b1424a54da8991656451f301) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97e891afe80a3acb14a724f07c196396') in 0.026736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Ninja/png/Attack__005.png
+  artifactKey: Guid(6ccb984d7056f1d489f0f4a6af65143d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Attack__005.png using Guid(6ccb984d7056f1d489f0f4a6af65143d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01121789906a92381ef88d22f87e452f') in 0.0257733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Ninja/png/Glide_008.png
+  artifactKey: Guid(96e27c0b0926c254aa3aa4344129df5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Glide_008.png using Guid(96e27c0b0926c254aa3aa4344129df5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b20687fb56a67c96447399ececf65c73') in 0.0292391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Ninja/png/Climb_004.png
+  artifactKey: Guid(fdf9ced2dc8146a46bde198ed4a9efd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Climb_004.png using Guid(fdf9ced2dc8146a46bde198ed4a9efd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97f268fd0ab9d0ffd35e77e9f291d747') in 0.0244906 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Ninja/png/Glide_007.png
+  artifactKey: Guid(d234ed2b0b1e4c947b1104b0a55e2077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Glide_007.png using Guid(d234ed2b0b1e4c947b1104b0a55e2077) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '966442810f7116e7b3f6b342e8e7f65e') in 0.0270945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Ninja/png/Glide_002.png
+  artifactKey: Guid(993b4d88edf243e498c13143fe5bbaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Glide_002.png using Guid(993b4d88edf243e498c13143fe5bbaf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42bc5737f0b9583ede5db8534c7f31ee') in 0.025807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Ninja/png/Attack__006.png
+  artifactKey: Guid(c6d1f54bba2862c4e9b1593385b442a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Attack__006.png using Guid(c6d1f54bba2862c4e9b1593385b442a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4811ab355ab547a322701042f7ca12ee') in 0.029773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Ninja/png/Attack__004.png
+  artifactKey: Guid(b065d36a5fac07e4f84e0b23d0ad314f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Attack__004.png using Guid(b065d36a5fac07e4f84e0b23d0ad314f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0cf4ab4c2081218b8edef36cad8e59e') in 0.0296539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ninja/png/Dead__009.png
+  artifactKey: Guid(20deb2ddf7dbf3645b7f41cb0ee1b25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Dead__009.png using Guid(20deb2ddf7dbf3645b7f41cb0ee1b25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1544b948b7ac23b97af3e98348e32c4') in 0.0276162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ninja/png/Idle__007.png
+  artifactKey: Guid(ad3b0d5b4f3a9324385056b9ca3ed2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Idle__007.png using Guid(ad3b0d5b4f3a9324385056b9ca3ed2c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e9637abb5abfdc9eb0f15b7fd0e86c33') in 0.026676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ninja/png/Glide_000.png
+  artifactKey: Guid(8e47158866d001e4caf11a8f41ef04ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Glide_000.png using Guid(8e47158866d001e4caf11a8f41ef04ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afa4ccf288697b6b5267eff2eafedcda') in 0.0265644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ninja/png/Dead__008.png
+  artifactKey: Guid(6dbd5b67dd534dd4d94206880f6338d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Dead__008.png using Guid(6dbd5b67dd534dd4d94206880f6338d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78f097d8dc8a94476fe514eb98ed27f0') in 0.0265074 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ninja/png/Attack__003.png
+  artifactKey: Guid(d0b9bc24b03fa2b43922a70ad909519d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Attack__003.png using Guid(d0b9bc24b03fa2b43922a70ad909519d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'baab922dc96e7da9c3719d20959445e8') in 0.0326976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.529134 seconds.
+  path: Assets/Ninja/png/Idle__009.png
+  artifactKey: Guid(f610e3c9ba7e23e4faba80722ec9f9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Idle__009.png using Guid(f610e3c9ba7e23e4faba80722ec9f9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81af02a119c92010a14658c5fa4454c8') in 0.028487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ninja/png/Jump__003.png
+  artifactKey: Guid(a4a491dfd83d725429666bdd485e8b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Jump__003.png using Guid(a4a491dfd83d725429666bdd485e8b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2e68f544b2da068d0ebb88accd08de9') in 0.0279503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Ninja/png/Jump__006.png
+  artifactKey: Guid(b57ae7ee581ba4e41abbf0c7ac4bafca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Jump__006.png using Guid(b57ae7ee581ba4e41abbf0c7ac4bafca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08ae00278d3689d80196f85b5ef46d86') in 0.0278357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Ninja/png/Jump__007.png
+  artifactKey: Guid(a97c70bfdbe9cb849a7afd1e11e8ad6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Jump__007.png using Guid(a97c70bfdbe9cb849a7afd1e11e8ad6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61b3079a204a13c0e24bc2cddb67fd93') in 0.0309714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Ninja/png/Jump__002.png
+  artifactKey: Guid(e4f36dd6cbb4dad4baebeac2243c3eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Jump__002.png using Guid(e4f36dd6cbb4dad4baebeac2243c3eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf71832616afec10be722b9513222e13') in 0.0262184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Ninja/png/Jump__005.png
+  artifactKey: Guid(b4b1387637090b24d830d164f58d7bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Jump__005.png using Guid(b4b1387637090b24d830d164f58d7bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd50c94f59c04f0af7e86b75c1d64759b') in 0.0274583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.129689 seconds.
+  path: Assets/Ninja/png/Jump_Attack__001.png
+  artifactKey: Guid(23c8df3472095dd4daca11a2ea97e412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Jump_Attack__001.png using Guid(23c8df3472095dd4daca11a2ea97e412) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2611b02738b3422ab2f113cb60587b9') in 0.0330258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Ninja/png/Jump_Throw__002.png
+  artifactKey: Guid(3e18f7af8d7484d4fa0041936ab02b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Jump_Throw__002.png using Guid(3e18f7af8d7484d4fa0041936ab02b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73a8352809d505c4c221e71bd435db6c') in 0.0225966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ninja/png/Jump_Throw__000.png
+  artifactKey: Guid(2213ed2999880cf4dada213a03633d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Jump_Throw__000.png using Guid(2213ed2999880cf4dada213a03633d1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '479d2c004e81167d58d073945bc9cc35') in 0.0234321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ninja/png/Jump_Attack__008.png
+  artifactKey: Guid(808229d4d2c250e4b943e1045356ea90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Jump_Attack__008.png using Guid(808229d4d2c250e4b943e1045356ea90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5c27ed83c7548eca02ee42a5430299f') in 0.028475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Ninja/png/Jump_Attack__006.png
+  artifactKey: Guid(617be6f55c031bf43b6b254852204151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Jump_Attack__006.png using Guid(617be6f55c031bf43b6b254852204151) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e851c7fd8802c145838026a1307c7e4') in 0.0258869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ninja/png/Jump_Throw__001.png
+  artifactKey: Guid(b66d4e7b75a29184eb2fb93eb171f41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/Jump_Throw__001.png using Guid(b66d4e7b75a29184eb2fb93eb171f41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4aec272dc531e36b46084bfda0a726e9') in 0.0230828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.961024 seconds.
+  path: Assets/Ninja/png/png/Dead__005.png
+  artifactKey: Guid(553893d1ca1e5bc4bb0639c0493a4d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Dead__005.png using Guid(553893d1ca1e5bc4bb0639c0493a4d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fe79762b87068cd1cd73500a5d3544e') in 0.0419648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Ninja/png/png/Jump_Attack__003.png
+  artifactKey: Guid(3903df34dd1ae3844a14c51991708afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Jump_Attack__003.png using Guid(3903df34dd1ae3844a14c51991708afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfcffa06347d053311c468a5d72d7519') in 0.0296467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Ninja/png/png/Jump_Throw__002.png
+  artifactKey: Guid(86815d26c84452d4fb4f19844b913d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Jump_Throw__002.png using Guid(86815d26c84452d4fb4f19844b913d24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7071c6201fbe959acc04c7a45b7b03c3') in 0.0269523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Ninja/png/png/Jump__009.png
+  artifactKey: Guid(9e8db23fd76208b4a9fd9ba7248ba8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Jump__009.png using Guid(9e8db23fd76208b4a9fd9ba7248ba8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '40966908f82bee88b0fabfcdab3b0c8a') in 0.0312636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ninja/png/png/Jump_Attack__008.png
+  artifactKey: Guid(fcf1202715507ec4f8410f7029736866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Jump_Attack__008.png using Guid(fcf1202715507ec4f8410f7029736866) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c92811e0de920eb3faf514c4bb0c9930') in 0.0302548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ninja/png/png/Glide_002.png
+  artifactKey: Guid(4d8b6c93b276296419ea3ef364945803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Glide_002.png using Guid(4d8b6c93b276296419ea3ef364945803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e553f5611b436ed17bd337b5773ea38') in 0.0309934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Ninja/png/png/Idle__000.png
+  artifactKey: Guid(1b2b995810cfa6e4ba771b99a122c722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Idle__000.png using Guid(1b2b995810cfa6e4ba771b99a122c722) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53aca4e2582071c192e59a49e6dadcc5') in 0.027769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Ninja/png/png/Jump__004.png
+  artifactKey: Guid(21765933861102a44b67d8b13667cc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Jump__004.png using Guid(21765933861102a44b67d8b13667cc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0bfd92eae4d14af81f26ff94862d416') in 0.0288151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Ninja/png/png/Idle__007.png
+  artifactKey: Guid(6d57a4e0e5dd08d4daf79ed3b48d4699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Idle__007.png using Guid(6d57a4e0e5dd08d4daf79ed3b48d4699) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b720d4c0943c8e57aa92ebed5a590be5') in 0.0275681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Ninja/png/png/Jump__003.png
+  artifactKey: Guid(b2f78aaf60ca07544abd1469c02ee62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Jump__003.png using Guid(b2f78aaf60ca07544abd1469c02ee62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '777d94cd83d4b25ef7e2ae61d8e38df5') in 0.0252029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ninja/png/png/Idle__002.png
+  artifactKey: Guid(5a6086402082177409a0febd497480e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Idle__002.png using Guid(5a6086402082177409a0febd497480e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cb42a2e5f9e424041efdbf6d6622acf') in 0.0251158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Ninja/png/png/Jump_Attack__000.png
+  artifactKey: Guid(4c02cd161b1c5a84e892ca9e47a32310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Jump_Attack__000.png using Guid(4c02cd161b1c5a84e892ca9e47a32310) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dfb6d6c20c9a55a1062761a90f8ac95') in 0.0292729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ninja/png/png/Jump_Throw__001.png
+  artifactKey: Guid(f7cbf04093aa74742b9622c92eb1e928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Jump_Throw__001.png using Guid(f7cbf04093aa74742b9622c92eb1e928) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bb0fb500440de5e53146d3728f76ed5') in 0.0266255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.527416 seconds.
+  path: Assets/Ninja/png/png/Jump_Throw__004.png
+  artifactKey: Guid(cd0b4252590a965449397b7d06a813a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Jump_Throw__004.png using Guid(cd0b4252590a965449397b7d06a813a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ceeb41df9dfef9ce7d29248fefa1027') in 0.0386213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ninja/png/png/Jump_Throw__008.png
+  artifactKey: Guid(b82949463fd657e4d86ae44bd44f0a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Jump_Throw__008.png using Guid(b82949463fd657e4d86ae44bd44f0a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '10eb22e54b6cfc8bb0d25a870dab920b') in 0.0277417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Ninja/png/png/Slide__004.png
+  artifactKey: Guid(6d6bfaf5ed8d77242a5b65a2bb445a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Slide__004.png using Guid(6d6bfaf5ed8d77242a5b65a2bb445a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b85c066c2e9d4294410d3e7244168c62') in 0.0278374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ninja/png/png/Throw__007.png
+  artifactKey: Guid(8a56ad37122fde24bb9ff5817b6bd980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Throw__007.png using Guid(8a56ad37122fde24bb9ff5817b6bd980) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d3d833e1f32d52cc468a1a5b637505c') in 0.0290375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ninja/png/png/Run__008.png
+  artifactKey: Guid(19a086b23b4316e44bc871d1ebc9c1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Run__008.png using Guid(19a086b23b4316e44bc871d1ebc9c1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1101a73e85051e4baa0c240b3fa249de') in 0.0274576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Ninja/png/png/Run__001.png
+  artifactKey: Guid(f8e55eb10aedad54d9177107fc55afa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Run__001.png using Guid(f8e55eb10aedad54d9177107fc55afa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c72edf174d284cddf8977524e339a0e9') in 0.0323436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ninja/png/png/Slide__002.png
+  artifactKey: Guid(570911605c9697c4f96c59f6543b959f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Slide__002.png using Guid(570911605c9697c4f96c59f6543b959f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '289dd572c2fa8f46ce42862211b1944c') in 0.0302715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ninja/png/png/Throw__005.png
+  artifactKey: Guid(d09263dd85191e7408539e29fc096ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Throw__005.png using Guid(d09263dd85191e7408539e29fc096ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07a6ac09251bb596de45560876e094fa') in 0.0295389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ninja/png/png/Run__000.png
+  artifactKey: Guid(fa3a0140226e4174cae7790fd4c4cc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Run__000.png using Guid(fa3a0140226e4174cae7790fd4c4cc5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fccb81fff6757daf19bf03ebdfdddae6') in 0.0288776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.183453 seconds.
+  path: Assets/Ninja/png/png/Throw__009.png
+  artifactKey: Guid(b5088ddf4b6170d46a6865486cace398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Throw__009.png using Guid(b5088ddf4b6170d46a6865486cace398) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4128a47309ca365a42eb66ae3e3673e5') in 0.029111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 85.365579 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb52b6b3e532692a827a09949c741255') in 0.9091197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Ninja/png/Climb_009.png
+  artifactKey: Guid(5e1c881a917aedb44aa52777660bd6d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Climb_009.png using Guid(5e1c881a917aedb44aa52777660bd6d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd21fae65b86d6afe139437c2b3d2c7f') in 0.2198902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Ninja/png/Attack__006.png
+  artifactKey: Guid(c6d1f54bba2862c4e9b1593385b442a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Attack__006.png using Guid(c6d1f54bba2862c4e9b1593385b442a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f7b536f3c3dd73e3b78fab2c8d0cdb2a') in 0.0646899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Ninja/png/Idle__001.png
+  artifactKey: Guid(8e929492363624a449005071376c00d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Idle__001.png using Guid(8e929492363624a449005071376c00d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76caecd756d5b2dabae2c56e2dbd78a3') in 0.0598391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Settings/UniversalRP.asset
+  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a62f9c3e462199816b0fd3c558aa0aa') in 0.1451208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Ninja/png/Run__000.png
+  artifactKey: Guid(fd2e77e4459856e4aa22579d48983617) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Run__000.png using Guid(fd2e77e4459856e4aa22579d48983617) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bd2a9fe96f3d1f3cfeb590c150735bf0') in 0.0671303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Ninja/png/Dead__000.png
+  artifactKey: Guid(b1b62ddd4da9512418728a41bc1afccc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Dead__000.png using Guid(b1b62ddd4da9512418728a41bc1afccc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e715ce8d05bc17f1115a34275ebf5fd9') in 0.0794458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Ninja/png/Dead__001.png
+  artifactKey: Guid(90ef4c9ce314d374992c45f369ecd0ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Dead__001.png using Guid(90ef4c9ce314d374992c45f369ecd0ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8228d16653f9cb178757fe66aad0e315') in 0.0508209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Ninja/png/Kunai.png
+  artifactKey: Guid(0459becfe9a4f494b8f65cdfaf3a412e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Kunai.png using Guid(0459becfe9a4f494b8f65cdfaf3a412e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e58e136a29c5a71d34e9c373d5ce469') in 0.0682846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Ninja/png/Attack__000.png
+  artifactKey: Guid(e75b762587bc1e84ab765b2b444ebc75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Attack__000.png using Guid(e75b762587bc1e84ab765b2b444ebc75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '454d1c26a7456ec077ca51cd82afb747') in 0.0506122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Ninja/png/Run__008.png
+  artifactKey: Guid(77a97fc28e26cc1449dc12d72aa1a065) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Run__008.png using Guid(77a97fc28e26cc1449dc12d72aa1a065) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '767c9e7c5fedbdc4542d4b9819b725d8') in 0.0583313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Ninja/png/Glide_002.png
+  artifactKey: Guid(993b4d88edf243e498c13143fe5bbaf3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Glide_002.png using Guid(993b4d88edf243e498c13143fe5bbaf3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c7513b499d89eac6fb6841c23a90d1b') in 0.0731662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Ninja/png/Jump__001.png
+  artifactKey: Guid(118b241992297b84d9ebd9893f3c2559) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Jump__001.png using Guid(118b241992297b84d9ebd9893f3c2559) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e2e462b8a572d40748f23af4f48ffe0') in 0.0610812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Ninja/png/Jump_Throw__006.png
+  artifactKey: Guid(3fd86d652081bb14c9406668c29e720a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Jump_Throw__006.png using Guid(3fd86d652081bb14c9406668c29e720a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9af949d92b774aab2c8360ad6d3e4d4f') in 0.0606176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Ninja/png/Jump_Throw__003.png
+  artifactKey: Guid(edfe5e81dc2d7f443b51ce3ac3b7803c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Jump_Throw__003.png using Guid(edfe5e81dc2d7f443b51ce3ac3b7803c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8c4d3216b4be534e77393ee6e5fb3e4') in 0.0547405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Ninja/png/Jump__004.png
+  artifactKey: Guid(6cc6af5e717265c4c883fc3f08ffda03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Jump__004.png using Guid(6cc6af5e717265c4c883fc3f08ffda03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bcee2ede80e7a91099499baa25fcb537') in 0.0616642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Ninja/png/Climb_003.png
+  artifactKey: Guid(a18b87d0b1424a54da8991656451f301) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Climb_003.png using Guid(a18b87d0b1424a54da8991656451f301) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ddc7b9e3cca5b4df8f5657175118c273') in 0.0750555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Ninja/png/Slide__000.png
+  artifactKey: Guid(824703056e7780045a9f82b9f27ab25f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Slide__000.png using Guid(824703056e7780045a9f82b9f27ab25f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d4b414f3e3db9b381f4482e5d45a4c4') in 0.0783079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Ninja/png/Attack__008.png
+  artifactKey: Guid(90a32624ef0d2fe418fa937c7776cdbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Attack__008.png using Guid(90a32624ef0d2fe418fa937c7776cdbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe1f4c20cb7a727ec0e145cb2e3dd9e5') in 0.0641158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Ninja/png/Climb_000.png
+  artifactKey: Guid(0ca4072a6dd8256499d6e9bdb1d7cc04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Climb_000.png using Guid(0ca4072a6dd8256499d6e9bdb1d7cc04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c30d7742f277f96f9e0d7f7944121f7e') in 0.0555993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Ninja/png/Jump_Attack__002.png
+  artifactKey: Guid(97c3039b4e891ce469225df792aa3714) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Jump_Attack__002.png using Guid(97c3039b4e891ce469225df792aa3714) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '370c3589344ddb8c6124ed737bb93a90') in 0.0674206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Ninja/png/Jump__005.png
+  artifactKey: Guid(b4b1387637090b24d830d164f58d7bfc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Jump__005.png using Guid(b4b1387637090b24d830d164f58d7bfc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd27cf8d27fe67fb5862dfa5446187de4') in 0.0593956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Ninja/png/Run__003.png
+  artifactKey: Guid(44f0f3294d0c902469920fc3560ec19b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Run__003.png using Guid(44f0f3294d0c902469920fc3560ec19b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa56c100917a48daba56c5a3513261ce') in 0.0685422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Ninja/png/Attack__002.png
+  artifactKey: Guid(726539f4a081acd428a45c099ca8282d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Attack__002.png using Guid(726539f4a081acd428a45c099ca8282d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '956c20f6ebee2ef81d48d568a5086b50') in 0.0602089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Ninja/png/Jump__009.png
+  artifactKey: Guid(846aea6af8c795a4cbdcd6162941df84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Jump__009.png using Guid(846aea6af8c795a4cbdcd6162941df84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c2c9d7b85a47093588f74833c7ccb23') in 0.0575621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Ninja/png/Dead__008.png
+  artifactKey: Guid(6dbd5b67dd534dd4d94206880f6338d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Dead__008.png using Guid(6dbd5b67dd534dd4d94206880f6338d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '122d3aa8b0c934a7934baba3aba39236') in 0.0627253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Ninja/png/Idle__007.png
+  artifactKey: Guid(ad3b0d5b4f3a9324385056b9ca3ed2c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Idle__007.png using Guid(ad3b0d5b4f3a9324385056b9ca3ed2c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05253419cf3136cb8a75b6f3584bb69d') in 0.064331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Ninja/png/Jump_Attack__009.png
+  artifactKey: Guid(10728dacd8e637348881813311b12ad2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Jump_Attack__009.png using Guid(10728dacd8e637348881813311b12ad2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7b394f95ddbe027cedd2d4482e9d982') in 0.0842076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Ninja/png/Attack__007.png
+  artifactKey: Guid(0bb3ad762940fe44792b9519a1fb0904) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Attack__007.png using Guid(0bb3ad762940fe44792b9519a1fb0904) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '18ce87c4559c2547b7f6780ef8ffc628') in 0.0673819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Ninja/png/Jump_Attack__003.png
+  artifactKey: Guid(b8f59891df56cca408cae106a6cab0f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Jump_Attack__003.png using Guid(b8f59891df56cca408cae106a6cab0f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9be88e643cdf3e45edc38cce34a3ee19') in 0.0648718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Ninja/png/Jump_Attack__008.png
+  artifactKey: Guid(808229d4d2c250e4b943e1045356ea90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Jump_Attack__008.png using Guid(808229d4d2c250e4b943e1045356ea90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b80d70d886351c7e89dfd2b93997cf9') in 0.0608207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/Ninja/png/Jump_Throw__001.png
+  artifactKey: Guid(b66d4e7b75a29184eb2fb93eb171f41b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Jump_Throw__001.png using Guid(b66d4e7b75a29184eb2fb93eb171f41b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c18df69af076dda76f94ec7f5af571e2') in 0.0681701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Ninja/png/Jump_Attack__001.png
+  artifactKey: Guid(23c8df3472095dd4daca11a2ea97e412) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Jump_Attack__001.png using Guid(23c8df3472095dd4daca11a2ea97e412) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be8df0435c5d88bc3ca6432585768873') in 0.0648015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Ninja/png/Climb_002.png
+  artifactKey: Guid(96cc0ac1b2bb3d04aa23751a54becfa7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Climb_002.png using Guid(96cc0ac1b2bb3d04aa23751a54becfa7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9c270dc853045ff294295300171e46b') in 0.0717464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Ninja/png/Run__004.png
+  artifactKey: Guid(e075007dd28921946b2607b52d6c28b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Run__004.png using Guid(e075007dd28921946b2607b52d6c28b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09258fbc0e515fb12ce32febf80fb4c4') in 0.0506133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Ninja/png/Idle__008.png
+  artifactKey: Guid(7d0ae8010755902449df9c1465c37c81) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Idle__008.png using Guid(7d0ae8010755902449df9c1465c37c81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e070fa3bca6f8f12c3c3e76869320aa1') in 0.0564964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Ninja/png/Jump_Throw__007.png
+  artifactKey: Guid(35081eeb8feb2ec4d958db474ed9b6af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Jump_Throw__007.png using Guid(35081eeb8feb2ec4d958db474ed9b6af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ba04133ce3fd567c25c34c62ca28dc4') in 0.0586072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ninja/png/Attack__001.png
+  artifactKey: Guid(6452c3567b3efbe49922088232f97c22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Attack__001.png using Guid(6452c3567b3efbe49922088232f97c22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0fb19144c6031b490c0bd72c806b53a') in 0.0675881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Ninja/png/Jump_Throw__004.png
+  artifactKey: Guid(e99864f0b7725c24a828308f5c3d79bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Jump_Throw__004.png using Guid(e99864f0b7725c24a828308f5c3d79bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4864914bf33ed6a7150008be1bf605bb') in 0.050491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Ninja/png/Jump__000.png
+  artifactKey: Guid(ea0123325eaf4794eacd811a164d17a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Jump__000.png using Guid(ea0123325eaf4794eacd811a164d17a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c4da8fe15554b47f54b468ddfc904a9') in 0.0559606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7f86d653c09ca17adda38f7cc67a1d8') in 0.1507388 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Ninja/png/Climb_004.png
+  artifactKey: Guid(fdf9ced2dc8146a46bde198ed4a9efd5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Climb_004.png using Guid(fdf9ced2dc8146a46bde198ed4a9efd5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '776d999ad45fd00d0be607f059529e23') in 0.0670286 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Ninja/png/Jump__007.png
+  artifactKey: Guid(a97c70bfdbe9cb849a7afd1e11e8ad6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Jump__007.png using Guid(a97c70bfdbe9cb849a7afd1e11e8ad6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8554392179b794298c780a5cdf8ee70') in 0.0548109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Ninja/png/Idle__009.png
+  artifactKey: Guid(f610e3c9ba7e23e4faba80722ec9f9c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Idle__009.png using Guid(f610e3c9ba7e23e4faba80722ec9f9c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '256bf34646e3b281bef775395e8d439e') in 0.0539274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Ninja/png/Jump_Throw__009.png
+  artifactKey: Guid(2fde88a5f16e11045ac649d7a6fa5537) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Jump_Throw__009.png using Guid(2fde88a5f16e11045ac649d7a6fa5537) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1d73df07329d6f6ce74a3da942c3ed1') in 0.0735534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Ninja/png/Glide_005.png
+  artifactKey: Guid(2851fa1d185478742b9e4183dd6d5241) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Glide_005.png using Guid(2851fa1d185478742b9e4183dd6d5241) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '830e4c8645388a738ee7a99042f09b1c') in 0.0755261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Ninja/png/Climb_005.png
+  artifactKey: Guid(7c0855ec52fd50446a9fc617bdc08c24) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Climb_005.png using Guid(7c0855ec52fd50446a9fc617bdc08c24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2db6c67b10adb55ad77cef66aa8d3bf0') in 0.0794401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Ninja/png/Run__001.png
+  artifactKey: Guid(1af41ee25c63d234d820eade51400ee5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Run__001.png using Guid(1af41ee25c63d234d820eade51400ee5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7c89518acd8aea89a583cfb63a61c7d') in 0.0682152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Ninja/png/png/Climb_001.png
+  artifactKey: Guid(d9a0a57fba633b24ead020cfd86e0373) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Climb_001.png using Guid(d9a0a57fba633b24ead020cfd86e0373) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5979a76e7362141d5d7deb3a59c8928e') in 0.0688428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Ninja/png/Throw__006.png
+  artifactKey: Guid(6f8b19ea73196ff4a992dd161c308476) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Throw__006.png using Guid(6f8b19ea73196ff4a992dd161c308476) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3854674d54639904a53636efb1b88d74') in 0.0599407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Ninja/png/Throw__001.png
+  artifactKey: Guid(ca7613b9aec4eb044aef0035bed604ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Throw__001.png using Guid(ca7613b9aec4eb044aef0035bed604ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bad4923e0f96e97cce634f9936b3654') in 0.0602799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Ninja/png/png/Attack__001.png
+  artifactKey: Guid(2197860ab4517234296b773d14375082) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Attack__001.png using Guid(2197860ab4517234296b773d14375082) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd0edd4a6695c358069e1c60ef8902a1b') in 0.0750834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Ninja/png/png/Run__000.png
+  artifactKey: Guid(fa3a0140226e4174cae7790fd4c4cc5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Run__000.png using Guid(fa3a0140226e4174cae7790fd4c4cc5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dbbc0f101630f648d127c098ac613e04') in 0.054055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ninja/png/png/Dead__004.png
+  artifactKey: Guid(4d2bb3b3881748444b1e4303ef93538b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Dead__004.png using Guid(4d2bb3b3881748444b1e4303ef93538b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c91ef3557563768e56afbdee484a9eb1') in 0.0601595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Ninja/png/png/Jump_Attack__009.png
+  artifactKey: Guid(4c506d558212f3a44a968f98b62e9767) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Jump_Attack__009.png using Guid(4c506d558212f3a44a968f98b62e9767) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e6d81186c64bab4eb5c45bc3e2548dbe') in 0.0588123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Ninja/png/png/Glide_000.png
+  artifactKey: Guid(d593b657e561a744ba554006e79f2660) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Glide_000.png using Guid(d593b657e561a744ba554006e79f2660) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c493b3c2c60f30175f231a676c6acdda') in 0.0695737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Ninja/png/png/Slide__000.png
+  artifactKey: Guid(1b3099b9d3e998845853deba5cf7f99a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Slide__000.png using Guid(1b3099b9d3e998845853deba5cf7f99a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22da67e0d71fb43c676666b86a06567c') in 0.0641726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Ninja/png/Slide__007.png
+  artifactKey: Guid(c1f0b2da7d4a033439e763e80618d7dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Slide__007.png using Guid(c1f0b2da7d4a033439e763e80618d7dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1620261eb0eadd778a11b79794901d8d') in 0.0660128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Ninja/png/png/Jump_Throw__008.png
+  artifactKey: Guid(b82949463fd657e4d86ae44bd44f0a6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Jump_Throw__008.png using Guid(b82949463fd657e4d86ae44bd44f0a6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87b3dcab014adc2156fc1de054434841') in 0.0653618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Ninja/png/png/Dead__000.png
+  artifactKey: Guid(14a6ce31bf267f74db80597b92620158) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Dead__000.png using Guid(14a6ce31bf267f74db80597b92620158) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a0c78ec99431c9811ce3c71ee6410f8') in 0.0564652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Ninja/png/png/Dead__008.png
+  artifactKey: Guid(4262ce211de828c4c8b24a23d5f5c22a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Dead__008.png using Guid(4262ce211de828c4c8b24a23d5f5c22a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6130701cac8a1be28d65acc8ceb4a81') in 0.0599456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Ninja/png/png/Jump__000.png
+  artifactKey: Guid(63b1c65a13174554dae1ef1fca25af64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Jump__000.png using Guid(63b1c65a13174554dae1ef1fca25af64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ec8bc9f6e02412cb8233f9e5319177c') in 0.0583882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Ninja/png/png/Climb_009.png
+  artifactKey: Guid(7a46aa20cf10fc541a0766bf5437e4f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Climb_009.png using Guid(7a46aa20cf10fc541a0766bf5437e4f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ce0b2d6f374856fea2a9dab0d53b1016') in 0.0760857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Ninja/png/png/Slide__001.png
+  artifactKey: Guid(6017eccb9693ee541a81643e236e3a27) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Slide__001.png using Guid(6017eccb9693ee541a81643e236e3a27) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8026942998fb1e4142293485cff84648') in 0.0931477 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Ninja/png/png/Glide_002.png
+  artifactKey: Guid(4d8b6c93b276296419ea3ef364945803) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Glide_002.png using Guid(4d8b6c93b276296419ea3ef364945803) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6375aec6546c897e6b6329bd4bd8ba9d') in 0.0787147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Ninja/png/png/Throw__004.png
+  artifactKey: Guid(739324ebc94f8c24baf0eb03c4b88c4c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Throw__004.png using Guid(739324ebc94f8c24baf0eb03c4b88c4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f30876baf15a0896b42fd833acc4f60e') in 0.0615544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Ninja/png/png/Jump_Attack__005.png
+  artifactKey: Guid(60c4d5f9cef450e4c8820743a9280708) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Jump_Attack__005.png using Guid(60c4d5f9cef450e4c8820743a9280708) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ec2f73e4af1b8248d3586914596731a') in 0.0646785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Ninja/png/Slide__004.png
+  artifactKey: Guid(fcfcb3c16c92ebb4e9cb35dd38cb474c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Slide__004.png using Guid(fcfcb3c16c92ebb4e9cb35dd38cb474c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf7a3656529d5d115f9d1a3de213bc10') in 0.0651833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Ninja/png/png/Dead__003.png
+  artifactKey: Guid(6f5473e32d775104b97c0f1e15debe54) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Dead__003.png using Guid(6f5473e32d775104b97c0f1e15debe54) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '988aae412f21b78543049c77aedc5b2d') in 0.0621787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Ninja/png/png/Glide_005.png
+  artifactKey: Guid(b19e2e30b4c20644b8088e17c6606e04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Glide_005.png using Guid(b19e2e30b4c20644b8088e17c6606e04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3c3782a30f1e0a8fc57fac223d41b4e') in 0.0691634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Ninja/png/png/Run__003.png
+  artifactKey: Guid(3aabc28ca0b6e5e4abd09d854bfc3c97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Run__003.png using Guid(3aabc28ca0b6e5e4abd09d854bfc3c97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef17f8175d104710316f4470cce78db9') in 0.0580846 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Ninja/png/png/Jump_Throw__006.png
+  artifactKey: Guid(eb12842d12ee2a943acaddbc30c68d12) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Jump_Throw__006.png using Guid(eb12842d12ee2a943acaddbc30c68d12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef2453bae413781ef8cf8e16d4494486') in 0.0617362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Ninja/png/png/Throw__002.png
+  artifactKey: Guid(bb6fcb68813da1046ad6bc332dc7cae9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Throw__002.png using Guid(bb6fcb68813da1046ad6bc332dc7cae9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '735794a5bdcd4e6490969c6c11de9995') in 0.0624917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Ninja/png/Throw__007.png
+  artifactKey: Guid(d642fe1a4371e25448ff61e3d4f8206c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Throw__007.png using Guid(d642fe1a4371e25448ff61e3d4f8206c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8f05b255ea27094391782c11887b23f') in 0.0573851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Ninja/png/png/Climb_000.png
+  artifactKey: Guid(b2352ad66c260c04d8c9546f215e7115) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Climb_000.png using Guid(b2352ad66c260c04d8c9546f215e7115) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ed7a540ab9741994d56b5f0e5189e64') in 0.0632904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Ninja/png/png/Throw__001.png
+  artifactKey: Guid(1360f8de6dc97dc4ea37edceef5383bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Throw__001.png using Guid(1360f8de6dc97dc4ea37edceef5383bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43d55fd19d98f91667e717964c211bc5') in 0.0730562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Ninja/png/png/Idle__005.png
+  artifactKey: Guid(537441c1c8ad34c4aaaca23b3a9d4cee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Idle__005.png using Guid(537441c1c8ad34c4aaaca23b3a9d4cee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e75b1d47eca27ccd7cf956e712ea8b79') in 0.0625559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Ninja/png/png/Idle__006.png
+  artifactKey: Guid(47fd33190d5739a499063f07bb2e0da1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Idle__006.png using Guid(47fd33190d5739a499063f07bb2e0da1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b6881d2dd0883e14d57462229a6bce45') in 0.055156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Ninja/png/png/Jump__001.png
+  artifactKey: Guid(70975b4bfbf486b4e8b79baa51f4a11f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Jump__001.png using Guid(70975b4bfbf486b4e8b79baa51f4a11f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df609f264fb785c170f07f5ac5a20ef7') in 0.0637795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Ninja/png/png/Jump__007.png
+  artifactKey: Guid(68b1d81bac6540a4695bdbf225b77b70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Jump__007.png using Guid(68b1d81bac6540a4695bdbf225b77b70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c923e214489691a05edd7830a9493d3a') in 0.0738441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Ninja/png/Throw__009.png
+  artifactKey: Guid(a6b5b94fccb2c4f45b46c17f227c5a59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Throw__009.png using Guid(a6b5b94fccb2c4f45b46c17f227c5a59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00fbaf43ecb5735a80e608143923d449') in 0.0660593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Ninja/png/png/Run__007.png
+  artifactKey: Guid(9708637a11e092c48b12a459296ca27a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Run__007.png using Guid(9708637a11e092c48b12a459296ca27a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '904522a55c28ac25a12a4713370a578b') in 0.0610264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Ninja/png/png/Glide_003.png
+  artifactKey: Guid(6e4d63336acdd8b4998233da41878128) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Glide_003.png using Guid(6e4d63336acdd8b4998233da41878128) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f904d4abcb1c38174c437caa7175a0d') in 0.0680026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Ninja/png/png/Climb_004.png
+  artifactKey: Guid(0c77a84fbc7fea9409df31abcc2e1a8a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Climb_004.png using Guid(0c77a84fbc7fea9409df31abcc2e1a8a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49c017d2ea1821b185f4bf2c4145480f') in 0.0621991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Ninja/png/png/Climb_002.png
+  artifactKey: Guid(39080cc0da5bd3d43b2b64b0dc95098a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Climb_002.png using Guid(39080cc0da5bd3d43b2b64b0dc95098a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '07242da5e28d14d2e7c2f0c048983308') in 0.0707793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Ninja/png/png/Jump_Throw__007.png
+  artifactKey: Guid(aa274ad2993e8fd4fb41fc83c019469a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Jump_Throw__007.png using Guid(aa274ad2993e8fd4fb41fc83c019469a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd117404660cf318c61697766bc37b546') in 0.0749973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Ninja/png/png/Slide__004.png
+  artifactKey: Guid(6d6bfaf5ed8d77242a5b65a2bb445a2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Slide__004.png using Guid(6d6bfaf5ed8d77242a5b65a2bb445a2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '014c1f56c6de685041a311b6f1ce70be') in 0.0614121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Ninja/png/png/Kunai.png
+  artifactKey: Guid(71bb376f95c852e42942b0fab0631fac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Kunai.png using Guid(71bb376f95c852e42942b0fab0631fac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1af4432b221e62fcacd9cdb94d567f98') in 0.0564823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Ninja/png/Slide__009.png
+  artifactKey: Guid(a1d19b0e116620e499e8930546f962d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/Slide__009.png using Guid(a1d19b0e116620e499e8930546f962d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '025eea2a5060ed1aa0a23e8dca952a85') in 0.0631985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Ninja/png/png/Jump_Throw__009.png
+  artifactKey: Guid(238958243246d09428870ab35171667b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Jump_Throw__009.png using Guid(238958243246d09428870ab35171667b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be52ed4793f0321a86b5e62ccbbb9bad') in 0.0662655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Ninja/png/png/Climb_007.png
+  artifactKey: Guid(581b11eec9028454cadf38dd31d4dafb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Climb_007.png using Guid(581b11eec9028454cadf38dd31d4dafb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2e8f9a8d80cb71de5034ec43fdc24b1') in 0.0721445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Ninja/png/png/Attack__005.png
+  artifactKey: Guid(5c5b3ccb1996db249a5272b95e3b6faa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ninja/png/png/Attack__005.png using Guid(5c5b3ccb1996db249a5272b95e3b6faa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4cfde9119651308720bb4f6ee9157b39') in 0.0632692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.753 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.985 seconds
+Domain Reload Profiling: 1738ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (458ms)
+		LoadAssemblies (356ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (178ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (986ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (774ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (148ms)
+			ProcessInitializeOnLoadAttributes (509ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 2.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6573 unused Assets / (7.2 MB). Loaded Objects now: 7294.
+Memory consumption went from 154.3 MB to 147.1 MB.
+Total: 15.279100 ms (FindLiveObjects: 0.874500 ms CreateObjectMapping: 0.941000 ms MarkObjects: 7.305100 ms  DeleteObjects: 6.156500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 89.763572 seconds.
+  path: Assets/Ninja/png/png/Climb_006.png
+  artifactKey: Guid(136251f3cf5019d4eb9974d0a1e2cd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Climb_006.png using Guid(136251f3cf5019d4eb9974d0a1e2cd3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63056ae06030a8991c6ed8006c591a62') in 0.1090967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Ninja/png/png/Dead__001.png
+  artifactKey: Guid(421a1b640a7415a488130ccda602550e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Dead__001.png using Guid(421a1b640a7415a488130ccda602550e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d4632212e195670cf564d19144755fd') in 0.0408899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Ninja/png/png/Attack__004.png
+  artifactKey: Guid(b70293f150f2bb34a925852312e447af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Attack__004.png using Guid(b70293f150f2bb34a925852312e447af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c584e98dfb956773be6e12fe0db98e3b') in 0.0437947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Ninja/png/png/Dead__000.png
+  artifactKey: Guid(14a6ce31bf267f74db80597b92620158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Dead__000.png using Guid(14a6ce31bf267f74db80597b92620158) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca8bad7ab329fbeb4e9fb04fa83b4cc1') in 0.0241524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ninja/png/png/Attack__006.png
+  artifactKey: Guid(284aad86fd6e32947a75720df980f8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Attack__006.png using Guid(284aad86fd6e32947a75720df980f8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba1fbd36181278d08a7c26b7f38a0317') in 0.0382506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Ninja/png/png/Attack__001.png
+  artifactKey: Guid(2197860ab4517234296b773d14375082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Attack__001.png using Guid(2197860ab4517234296b773d14375082) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb9729a26218f355a24a3a6454eec95c') in 0.0420518 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Ninja/png/png/Dead__002.png
+  artifactKey: Guid(d7d3ebabd53aed34ba2270b8e5b418c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Dead__002.png using Guid(d7d3ebabd53aed34ba2270b8e5b418c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1f6085fde76d5eaeb28f88ee131d7d06') in 0.0400176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Ninja/png/png/Attack__003.png
+  artifactKey: Guid(fde85b8ef5e5f79409e9beb40e38b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Attack__003.png using Guid(fde85b8ef5e5f79409e9beb40e38b341) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c25a817402a3e788949805174d8adff') in 0.0403276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Ninja/png/png/Attack__005.png
+  artifactKey: Guid(5c5b3ccb1996db249a5272b95e3b6faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Attack__005.png using Guid(5c5b3ccb1996db249a5272b95e3b6faa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f936931a221d80e5f812740a9d8361a') in 0.0341573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Ninja/png/png/Climb_009.png
+  artifactKey: Guid(7a46aa20cf10fc541a0766bf5437e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Climb_009.png using Guid(7a46aa20cf10fc541a0766bf5437e4f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc10d25cd06e4274dedd84a3771aa6c9') in 0.0259604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ninja/png/png/Climb_004.png
+  artifactKey: Guid(0c77a84fbc7fea9409df31abcc2e1a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Climb_004.png using Guid(0c77a84fbc7fea9409df31abcc2e1a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7bf79b199945e07476f59c0da5b92f96') in 0.0294296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Ninja/png/png/Attack__007.png
+  artifactKey: Guid(7d7bc18211a80214a8bed3cc6efde723) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Attack__007.png using Guid(7d7bc18211a80214a8bed3cc6efde723) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0068e23302788d84a1559e8b31731c4e') in 0.0321241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

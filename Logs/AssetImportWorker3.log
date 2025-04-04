@@ -1,0 +1,351 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.44f1 (101c91f3a8fb) revision 1055889'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'es' Physical Memory: 16069 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.44f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/USER/Desktop/Nueva carpeta/MyProyect
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+49907
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/USER/Desktop/Nueva carpeta/MyProyect
+C:/Users/USER/Desktop/Nueva carpeta/MyProyect
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16832]  Target information:
+
+Player connection [16832]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1174566956 [EditorId] 1174566956 [Version] 1048832 [Id] WindowsEditor(7,AlexanderHerrera) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16832]  * "[IP] 192.168.96.128 [Port] 0 [Flags] 2 [Guid] 1174566956 [EditorId] 1174566956 [Version] 1048832 [Id] WindowsEditor(7,AlexanderHerrera) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16832] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16832] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 7.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.44f1 (101c91f3a8fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/USER/Desktop/Nueva carpeta/MyProyect/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x46a6)
+    Vendor:   Intel
+    VRAM:     8034 MB
+    Driver:   31.0.101.4255
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005195 seconds.
+- Loaded All Assemblies, in  0.615 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.427 seconds
+Domain Reload Profiling: 1039ms
+	BeginReloadAssembly (234ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (236ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (230ms)
+				TypeCache.ScanAssembly (212ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (428ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (375ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (222ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.866 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.609 seconds
+Domain Reload Profiling: 1468ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (633ms)
+		LoadAssemblies (432ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (283ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (163ms)
+			BuildScriptInfoCaches (79ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (609ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (491ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (290ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6574 unused Assets / (7.2 MB). Loaded Objects now: 7218.
+Memory consumption went from 172.4 MB to 165.2 MB.
+Total: 7.776500 ms (FindLiveObjects: 0.500200 ms CreateObjectMapping: 0.431000 ms MarkObjects: 3.993200 ms  DeleteObjects: 2.851400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1017.689391 seconds.
+  path: Assets/Ninja/png/png/Dead__007.png
+  artifactKey: Guid(daa85059483ee834db0f189d038bb4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Dead__007.png using Guid(daa85059483ee834db0f189d038bb4f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '671a4e38814167cf721372271d7039a0') in 0.1467666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Ninja/png/png/Glide_007.png
+  artifactKey: Guid(d6cc3bf2d2b502f4d8c5b35473384d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Glide_007.png using Guid(d6cc3bf2d2b502f4d8c5b35473384d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0f5ec74d0fa5c2af3bf9570aed1e639') in 0.0342225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Ninja/png/png/Glide_000.png
+  artifactKey: Guid(d593b657e561a744ba554006e79f2660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Glide_000.png using Guid(d593b657e561a744ba554006e79f2660) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ec4383f7f40144facd17a7ae2ada00d') in 0.029877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Ninja/png/png/Glide_005.png
+  artifactKey: Guid(b19e2e30b4c20644b8088e17c6606e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Glide_005.png using Guid(b19e2e30b4c20644b8088e17c6606e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b72f83d1424bcc0f9930813454022d2') in 0.0294364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Ninja/png/png/Idle__001.png
+  artifactKey: Guid(a1be6e9d17323314ba49d4151a561d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Idle__001.png using Guid(a1be6e9d17323314ba49d4151a561d5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2c6f8c0044b30db1940b0f06e815b09') in 0.0261072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ninja/png/png/Idle__009.png
+  artifactKey: Guid(ff61dec62e3d1df44ad4a1b9567ee64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Idle__009.png using Guid(ff61dec62e3d1df44ad4a1b9567ee64e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57e55df88be29713f93a03b842492c3f') in 0.0265767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Ninja/png/png/Glide_004.png
+  artifactKey: Guid(773a0eef6eeb32543a5d76f7a44dbb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Glide_004.png using Guid(773a0eef6eeb32543a5d76f7a44dbb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47b6ce4c7b45011c6c20f0c1dfcff783') in 0.0300912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Ninja/png/png/Jump_Attack__005.png
+  artifactKey: Guid(60c4d5f9cef450e4c8820743a9280708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Jump_Attack__005.png using Guid(60c4d5f9cef450e4c8820743a9280708) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7d279614493d09dc4062c64eca1036a') in 0.0301807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ninja/png/png/Glide_008.png
+  artifactKey: Guid(23bc95ad7c7863c49b5422feb5b5dbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Glide_008.png using Guid(23bc95ad7c7863c49b5422feb5b5dbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d16b65e9d4193c2a282ed712cf2fb67') in 0.0295324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ninja/png/png/Jump_Attack__002.png
+  artifactKey: Guid(0513c9faf8d3b1b4eaaf2f4df09a8797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Jump_Attack__002.png using Guid(0513c9faf8d3b1b4eaaf2f4df09a8797) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b7e33d732c3e6a38465c2ff6fc397a6') in 0.0301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ninja/png/png/Jump__007.png
+  artifactKey: Guid(68b1d81bac6540a4695bdbf225b77b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Jump__007.png using Guid(68b1d81bac6540a4695bdbf225b77b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd3d1e57d989902104d6b5802832a8b72') in 0.0260119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.543161 seconds.
+  path: Assets/Ninja/png/png/Jump_Throw__006.png
+  artifactKey: Guid(eb12842d12ee2a943acaddbc30c68d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Jump_Throw__006.png using Guid(eb12842d12ee2a943acaddbc30c68d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae24bae589da463765242fbc8293d454') in 0.0358076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Ninja/png/png/Run__002.png
+  artifactKey: Guid(35b385c5389c0c345b51095340dd245f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Run__002.png using Guid(35b385c5389c0c345b51095340dd245f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7daee26dfc1abfea32afdb6912d3a01') in 0.0289359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Ninja/png/png/Slide__005.png
+  artifactKey: Guid(e1836b5c5957b0e408b99cfb3400f031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Slide__005.png using Guid(e1836b5c5957b0e408b99cfb3400f031) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f631cc1904a790b101c63862a6cf84fc') in 0.026519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Ninja/png/png/Slide__007.png
+  artifactKey: Guid(2f8fdea9286f76f4fb6e8e748b8fc41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Slide__007.png using Guid(2f8fdea9286f76f4fb6e8e748b8fc41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a4ddd6765b83a8376f3747dce335a3f7') in 0.0291968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ninja/png/png/Slide__001.png
+  artifactKey: Guid(6017eccb9693ee541a81643e236e3a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Slide__001.png using Guid(6017eccb9693ee541a81643e236e3a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9a9eda3fbba00e5b4ccdfb093c339d6') in 0.0296768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Ninja/png/png/Slide__008.png
+  artifactKey: Guid(83d96d08766fe134c97912150d434aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Slide__008.png using Guid(83d96d08766fe134c97912150d434aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b369b580933f62c08048718fccad659') in 0.0338461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Ninja/png/png/Run__009.png
+  artifactKey: Guid(38670f72e4037224d8ad31aa0924966d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Run__009.png using Guid(38670f72e4037224d8ad31aa0924966d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f6855f272fbf2019dace4d842f8770f') in 0.0318645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Ninja/png/png/Run__006.png
+  artifactKey: Guid(14b90b8cd4320a24fb6c19b88bb6f5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Run__006.png using Guid(14b90b8cd4320a24fb6c19b88bb6f5a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e33f16b500754dcce2b970198f5fb37') in 0.0306418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Ninja/png/png/Slide__006.png
+  artifactKey: Guid(454a749906a8cdb489f2874d8bd88a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ninja/png/png/Slide__006.png using Guid(454a749906a8cdb489f2874d8bd88a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3490e4fea5277612039c86d0a79f2c47') in 0.0337742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
