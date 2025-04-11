@@ -15,7 +15,7 @@ C:/Users/USER/Desktop/Nueva carpeta/MyProyect
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53568
+54741
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,14 @@ C:/Users/USER/Desktop/Nueva carpeta/MyProyect
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [17740]  Target information:
+Player connection [8864]  Target information:
 
-Player connection [17740]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 4259514018 [EditorId] 4259514018 [Version] 1048832 [Id] WindowsEditor(7,AlexanderHerrera) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [8864]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2487876960 [EditorId] 2487876960 [Version] 1048832 [Id] WindowsEditor(7,AlexanderHerrera) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [17740] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [17740] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8864]  * "[IP] 192.168.203.128 [Port] 0 [Flags] 2 [Guid] 2487876960 [EditorId] 2487876960 [Version] 1048832 [Id] WindowsEditor(7,AlexanderHerrera) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [8864] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8864] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,7 +78,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.48 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.55 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.44f1 (101c91f3a8fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Resources/UnitySubsystems
@@ -92,43 +94,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005147 seconds.
-- Loaded All Assemblies, in  0.852 seconds
+Registered in 0.003386 seconds.
+- Loaded All Assemblies, in  0.399 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.725 seconds
-Domain Reload Profiling: 1574ms
-	BeginReloadAssembly (302ms)
+- Finished resetting the current domain, in  0.361 seconds
+Domain Reload Profiling: 758ms
+	BeginReloadAssembly (137ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (89ms)
-	RebuildNativeTypeToScriptingClass (21ms)
-	initialDomainReloadingComplete (77ms)
-	LoadAllAssembliesAndSetupDomain (361ms)
-		LoadAssemblies (296ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (158ms)
+		LoadAssemblies (134ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (356ms)
-			TypeCache.Refresh (353ms)
-				TypeCache.ScanAssembly (323ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (139ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (726ms)
+	FinalizeReload (362ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (657ms)
+		SetupLoadedEditorAssemblies (314ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (54ms)
-			SetLoadedEditorAssemblies (9ms)
-			BeforeProcessingInitializeOnLoad (127ms)
-			ProcessInitializeOnLoadAttributes (364ms)
-			ProcessInitializeOnLoadMethodAttributes (103ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -137,160 +139,480 @@ Domain Reload Profiling: 1574ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.694 seconds
-Refreshing native plugins compatible for Editor in 1.65 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.873 seconds
+Refreshing native plugins compatible for Editor in 1.60 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.475 seconds
-Domain Reload Profiling: 3162ms
-	BeginReloadAssembly (316ms)
+- Finished resetting the current domain, in  0.830 seconds
+Domain Reload Profiling: 1699ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (24ms)
-	initialDomainReloadingComplete (81ms)
-	LoadAllAssembliesAndSetupDomain (1203ms)
-		LoadAssemblies (829ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (605ms)
+		LoadAssemblies (405ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (550ms)
-			TypeCache.Refresh (387ms)
-				TypeCache.ScanAssembly (352ms)
-			BuildScriptInfoCaches (131ms)
-			ResolveRequiredComponents (27ms)
-	FinalizeReload (1476ms)
+		AnalyzeDomain (297ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (195ms)
+			BuildScriptInfoCaches (65ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (830ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1231ms)
+		SetupLoadedEditorAssemblies (678ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (236ms)
-			ProcessInitializeOnLoadAttributes (743ms)
-			ProcessInitializeOnLoadMethodAttributes (228ms)
-			AfterProcessingInitializeOnLoad (6ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (411ms)
+			ProcessInitializeOnLoadMethodAttributes (143ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.47 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6575 unused Assets / (6.6 MB). Loaded Objects now: 7219.
-Memory consumption went from 170.4 MB to 163.8 MB.
-Total: 14.541600 ms (FindLiveObjects: 1.245000 ms CreateObjectMapping: 0.699200 ms MarkObjects: 7.267800 ms  DeleteObjects: 5.327900 ms)
+Unloading 6576 unused Assets / (7.4 MB). Loaded Objects now: 7220.
+Memory consumption went from 172.5 MB to 165.2 MB.
+Total: 9.445400 ms (FindLiveObjects: 1.086300 ms CreateObjectMapping: 0.485400 ms MarkObjects: 4.670900 ms  DeleteObjects: 3.201600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 176479.144022 seconds.
-  path: Assets/Ninja/png/Jump_Throw__005.png
-  artifactKey: Guid(c59f9673ddeb4d048abd27596a38bc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja/png/Jump_Throw__005.png using Guid(c59f9673ddeb4d048abd27596a38bc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '863e0cad695a24aa0f18cf564ca8a4b7') in 0.1858728 seconds
+  Time since last request: 603362.093432 seconds.
+  path: Assets/Personajes/Ninja/Animations/NinjaAnimator.controller
+  artifactKey: Guid(02fba437031557f4ca0048b8ae785d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Animations/NinjaAnimator.controller using Guid(02fba437031557f4ca0048b8ae785d02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c071d06b640b2d28fcb61af58b0a245') in 0.0153155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.800 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.602 seconds
+Domain Reload Profiling: 1399ms
+	BeginReloadAssembly (237ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (468ms)
+		LoadAssemblies (362ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (184ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (603ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (439ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (265ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6573 unused Assets / (7.1 MB). Loaded Objects now: 7225.
+Memory consumption went from 149.7 MB to 142.6 MB.
+Total: 7.299800 ms (FindLiveObjects: 0.501300 ms CreateObjectMapping: 0.444900 ms MarkObjects: 3.493400 ms  DeleteObjects: 2.859400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 47.584992 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(2bcd2660ca9b64942af0de543d8d7100) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b2564eaa9f4e1c9db0aa8e3ea579112') in 0.0289493 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Suelo.png
+  artifactKey: Guid(b0dbfb2a8be6fc44288684a8e3829d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Suelo.png using Guid(b0dbfb2a8be6fc44288684a8e3829d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61c656d14189c1f4d4d30bf38d744c0a') in 0.1080522 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Ninja/png/Slide__003.png
-  artifactKey: Guid(b3d11060ce8f43144ad9246342e02fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja/png/Slide__003.png using Guid(b3d11060ce8f43144ad9246342e02fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1258166e610578698ac373a12e8f227a') in 0.0380871 seconds
+  Time since last request: 4.720957 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Attack__001.png
+  artifactKey: Guid(8276400e340348741ad7e12a709d6825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Attack__001.png using Guid(8276400e340348741ad7e12a709d6825) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17ad90cf0e6c4027becb16aeacafdc14') in 0.0326061 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Ninja/png/Slide__000.png
-  artifactKey: Guid(824703056e7780045a9f82b9f27ab25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja/png/Slide__000.png using Guid(824703056e7780045a9f82b9f27ab25f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ccfef2f664db2899239a532bfb2d3e6') in 0.0363756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+  Time since last request: 0.000020 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Attack__004.png
+  artifactKey: Guid(f23f1066b2b94cb47875742bc0f16700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Attack__004.png using Guid(f23f1066b2b94cb47875742bc0f16700) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a32fa095ba8556c3a14f004ed30e807') in 0.0352064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Ninja/png/Run__002.png
-  artifactKey: Guid(9835b494d8acd7a42805f38eae15a45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja/png/Run__002.png using Guid(9835b494d8acd7a42805f38eae15a45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab63aedf6886594550fbc91296d464e4') in 0.0331536 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Ninja/png/Run__007.png
-  artifactKey: Guid(67ed240d4f45ab042af17fd3f370bc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja/png/Run__007.png using Guid(67ed240d4f45ab042af17fd3f370bc62) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c24c34e36cc6990956d11d4a99a6ac04') in 0.0431037 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Ninja/png/Run__009.png
-  artifactKey: Guid(7bf1df0dab071694983f8f835e24984b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja/png/Run__009.png using Guid(7bf1df0dab071694983f8f835e24984b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d383de85ea8085aa219db2ae2973f8b') in 0.036858 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Ninja/png/Slide__001.png
-  artifactKey: Guid(6ceca742e62dfa04f9799b0d31b4b244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja/png/Slide__001.png using Guid(6ceca742e62dfa04f9799b0d31b4b244) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b83e3439e9142396352cd3f91aa85d73') in 0.041846 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Ninja/png/Jump_Throw__007.png
-  artifactKey: Guid(35081eeb8feb2ec4d958db474ed9b6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja/png/Jump_Throw__007.png using Guid(35081eeb8feb2ec4d958db474ed9b6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a88db8f6bb977d59b7ef05910e1b569') in 0.0422048 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Ninja/png/Run__005.png
-  artifactKey: Guid(e7a0dd8c17d7df8429cf2cefa340892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja/png/Run__005.png using Guid(e7a0dd8c17d7df8429cf2cefa340892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9df09d16e3e89cd071806dcea2beb6c7') in 0.0395806 seconds
+  Time since last request: 0.000050 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Idle__001.png
+  artifactKey: Guid(76996e16aa64ef24b8a890a717a8a294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Idle__001.png using Guid(76996e16aa64ef24b8a890a717a8a294) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4748eec353b00b1c06bbcde18b86356') in 0.0272138 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000031 seconds.
-  path: Assets/Ninja/png/Slide__008.png
-  artifactKey: Guid(b6ac4e6b32685ae4a82c07de8eaa5e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja/png/Slide__008.png using Guid(b6ac4e6b32685ae4a82c07de8eaa5e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c92a956367ac0171324066b1382cb044') in 0.0383766 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Ninja/png/Throw__009.png
-  artifactKey: Guid(a6b5b94fccb2c4f45b46c17f227c5a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja/png/Throw__009.png using Guid(a6b5b94fccb2c4f45b46c17f227c5a59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e9352f7787738b41b3663bc045a406b') in 0.0459202 seconds
+  path: Assets/Personajes/Ninja/Sprites/Climb_001.png
+  artifactKey: Guid(659d57123abc8764eb50f5f850019080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Climb_001.png using Guid(659d57123abc8764eb50f5f850019080) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5706032196d84d220dbf876a20c58f40') in 0.030178 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000029 seconds.
-  path: Assets/Ninja/png/Throw__001.png
-  artifactKey: Guid(ca7613b9aec4eb044aef0035bed604ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja/png/Throw__001.png using Guid(ca7613b9aec4eb044aef0035bed604ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96bde163d85798a03fa08455683f112c') in 0.0436801 seconds
+  path: Assets/Personajes/Ninja/Sprites/Dead__002.png
+  artifactKey: Guid(e2349ff0fb99f404ea9182aa75083779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Dead__002.png using Guid(e2349ff0fb99f404ea9182aa75083779) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbc87b383a005064fc0cd83c410517e0') in 0.0336509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Idle__005.png
+  artifactKey: Guid(eb2b7075a7db0c14aa264e7712289c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Idle__005.png using Guid(eb2b7075a7db0c14aa264e7712289c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ff7cedb625c7c8136a6870f8e566e9e') in 0.0337797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Idle__009.png
+  artifactKey: Guid(4cd5857d6978ed54ba1885fd4beb0775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Idle__009.png using Guid(4cd5857d6978ed54ba1885fd4beb0775) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a84f386f6a9756d3a066fb7a0984b50') in 0.0272808 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump_Attack__003.png
+  artifactKey: Guid(9abcc374562e6f14ebf4c5c0788b1c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Jump_Attack__003.png using Guid(9abcc374562e6f14ebf4c5c0788b1c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da18d30b2b94e8d6680c9493ecc59a1a') in 0.0288303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump_Throw__004.png
+  artifactKey: Guid(88b674c8312911842a232ff5b49b211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Jump_Throw__004.png using Guid(88b674c8312911842a232ff5b49b211d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a882439324bf8fba55050abb9ffff545') in 0.0344442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump_Throw__003.png
+  artifactKey: Guid(86b64a5fca97e3c4baa3cbd0a4419227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Jump_Throw__003.png using Guid(86b64a5fca97e3c4baa3cbd0a4419227) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cb4a32429539b38a376f2aedbb6205c') in 0.0276483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump__001.png
+  artifactKey: Guid(2ec851eb2497e494b9b7437e759abf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Jump__001.png using Guid(2ec851eb2497e494b9b7437e759abf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '25947b65c7b65e44f85d72df687c0b44') in 0.0275803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Climb_007.png
+  artifactKey: Guid(bc809f7ba5de1a1479ce27588e171743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Climb_007.png using Guid(bc809f7ba5de1a1479ce27588e171743) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5411ee516a4c44a1e5e94a87cc3fbe87') in 0.0300573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Dead__001.png
+  artifactKey: Guid(075e8860f6b8f4b4a82865245d81eee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Dead__001.png using Guid(075e8860f6b8f4b4a82865245d81eee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '743c950714a70430388bf9272c3bbce3') in 0.0324027 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000034 seconds.
-  path: Assets/Ninja/png/Slide__007.png
-  artifactKey: Guid(c1f0b2da7d4a033439e763e80618d7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja/png/Slide__007.png using Guid(c1f0b2da7d4a033439e763e80618d7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66e688955f10114a11258b915adc193a') in 0.0369244 seconds
+  path: Assets/Personajes/Ninja/Sprites/Jump__006.png
+  artifactKey: Guid(d3ec17d9d9c674f438ac3277657ee6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Jump__006.png using Guid(d3ec17d9d9c674f438ac3277657ee6bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fed670f5e1a3b6f14e8981aa3da6bba') in 0.0283247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump__008.png
+  artifactKey: Guid(15e86ac68aca27f4f9095cd951646d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Jump__008.png using Guid(15e86ac68aca27f4f9095cd951646d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f32c53d53afc5804d359cdafc1eae23') in 0.0307826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Idle__008.png
+  artifactKey: Guid(8ecc1e3e338ee394b83d299aad18d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Idle__008.png using Guid(8ecc1e3e338ee394b83d299aad18d769) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e8d6107ebbe1f7fec8c547bf1f7b6849') in 0.0237428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump_Attack__007.png
+  artifactKey: Guid(a8de4cd52dfc3bb40959815bff4594e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Jump_Attack__007.png using Guid(a8de4cd52dfc3bb40959815bff4594e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '971b699b396673825d3f814615a641ee') in 0.0354451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump_Attack__004.png
+  artifactKey: Guid(47e8ae21ed4fdee4d96b35b0e8f5672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Jump_Attack__004.png using Guid(47e8ae21ed4fdee4d96b35b0e8f5672a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '048225bad424fae944c16d6298b3f089') in 0.0321781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Dead__003.png
+  artifactKey: Guid(52c16e568f2c6264e86a8f129c326f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Dead__003.png using Guid(52c16e568f2c6264e86a8f129c326f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8448217fa046833dc6c7749b49d83869') in 0.034855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Climb_006.png
+  artifactKey: Guid(076ca4eb78414bd4f89d4498cb372285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Climb_006.png using Guid(076ca4eb78414bd4f89d4498cb372285) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccf1a0bade11dfa886661df9a3618681') in 0.0309989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump__000.png
+  artifactKey: Guid(2737f8006d4a15045ba3ad8e54d6769d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Jump__000.png using Guid(2737f8006d4a15045ba3ad8e54d6769d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b57397704943b8a2b08ced4a1af698a') in 0.0244093 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000025 seconds.
-  path: Assets/Ninja/png/Kunai.png
-  artifactKey: Guid(0459becfe9a4f494b8f65cdfaf3a412e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ninja/png/Kunai.png using Guid(0459becfe9a4f494b8f65cdfaf3a412e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1bad91238e9526831760459657d9466') in 0.0276341 seconds
+  path: Assets/Personajes/Ninja/Sprites/Climb_005.png
+  artifactKey: Guid(37fdfe1fa21d8f349bd658a0ed70149e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Climb_005.png using Guid(37fdfe1fa21d8f349bd658a0ed70149e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b6bc517131a35699d841d3afa3cfb543') in 0.0330259 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Glide_007.png
+  artifactKey: Guid(a6bdd040d6d316948b243f2770b2ed97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Glide_007.png using Guid(a6bdd040d6d316948b243f2770b2ed97) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2735fe9677b3f123f5009b65d6a2ea17') in 0.0352186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Idle__002.png
+  artifactKey: Guid(528eda93920d4ed499bc5d4e3676844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Idle__002.png using Guid(528eda93920d4ed499bc5d4e3676844e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9c8b325bdcdeff1c1d4511c9fa460ba') in 0.0331176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Attack__008.png
+  artifactKey: Guid(8ec87d13830547142afc2f750bab3a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Attack__008.png using Guid(8ec87d13830547142afc2f750bab3a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '395929398657fba1da738730233ddf9f') in 0.0333084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Dead__007.png
+  artifactKey: Guid(8166e56adef9b604fae1ee9aeb53d99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Dead__007.png using Guid(8166e56adef9b604fae1ee9aeb53d99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8503f729d4c9d6c21a4c09d4d522524d') in 0.0308627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Idle__007.png
+  artifactKey: Guid(a228f312f01f73849adb014e8b0e9d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Idle__007.png using Guid(a228f312f01f73849adb014e8b0e9d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9eae85ff8f6f46de08aaff6484cd018') in 0.0306259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Glide_000.png
+  artifactKey: Guid(a37f9ef32a659f24bac0121600a0732b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Glide_000.png using Guid(a37f9ef32a659f24bac0121600a0732b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7f3a0e1c5f321e979e7f75cd4b34609') in 0.0354005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump_Attack__009.png
+  artifactKey: Guid(e649171d1e22c3146ad9df2d3fa1779e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Jump_Attack__009.png using Guid(e649171d1e22c3146ad9df2d3fa1779e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b478e6ab46e64a52b45fc31f83e49a3') in 0.0353055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump_Throw__001.png
+  artifactKey: Guid(e1d8e2027cdedc14f8866b9b4a7d4747) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Jump_Throw__001.png using Guid(e1d8e2027cdedc14f8866b9b4a7d4747) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '138fd2f0ae58b0c174407de54e50931e') in 0.0281547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump_Attack__001.png
+  artifactKey: Guid(8cc4a3ddada0a9844a185273674f40dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Jump_Attack__001.png using Guid(8cc4a3ddada0a9844a185273674f40dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c7786fd192a8375286ba6f1d235cab5') in 0.0268713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump__005.png
+  artifactKey: Guid(6c61112346dec4743a86485a3d0013aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Jump__005.png using Guid(6c61112346dec4743a86485a3d0013aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65df6f5cfbd660838112abf14f66f09f') in 0.0330407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump_Attack__005.png
+  artifactKey: Guid(c9e2b33b9ab67f249b74e56177185e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Jump_Attack__005.png using Guid(c9e2b33b9ab67f249b74e56177185e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a510e7d11c7a7b3eb4f1aac8061d581e') in 0.0355397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Climb_003.png
+  artifactKey: Guid(09118edf034f35846846ade7ab98fac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Climb_003.png using Guid(09118edf034f35846846ade7ab98fac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11087bc531ee88a7b9947440d6bce94e') in 0.0414965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Climb_000.png
+  artifactKey: Guid(2586795186fbdf54cb19fbf482d42d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Climb_000.png using Guid(2586795186fbdf54cb19fbf482d42d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a89be3cbb846ae20273e86f42a874a92') in 0.0322471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump__002.png
+  artifactKey: Guid(28afb70e2460dfb41993fc7838a9f4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Jump__002.png using Guid(28afb70e2460dfb41993fc7838a9f4fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce5e58bbdee1cdf36250f4b9453841ac') in 0.0397813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Climb_008.png
+  artifactKey: Guid(ddc5403f69a52c44080c06e06574cb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Climb_008.png using Guid(ddc5403f69a52c44080c06e06574cb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a6339baf79e67464fb9a2cc987d3ee6') in 0.0345274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Idle__006.png
+  artifactKey: Guid(ab6282526d5e46e41b12a25c5581f7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Idle__006.png using Guid(ab6282526d5e46e41b12a25c5581f7e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96dce9ba182f6f3bd71a22315158b71b') in 0.0354934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump_Attack__006.png
+  artifactKey: Guid(193c5f7627260754ea6fad2ae141b93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/Ninja/Sprites/Jump_Attack__006.png using Guid(193c5f7627260754ea6fad2ae141b93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '867c0c84d75116d0374fc5f99a15f708') in 0.0425158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.869 seconds
+Refreshing native plugins compatible for Editor in 2.79 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.307 seconds
+Domain Reload Profiling: 2175ms
+	BeginReloadAssembly (233ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (530ms)
+		LoadAssemblies (419ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (198ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1307ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (940ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (227ms)
+			ProcessInitializeOnLoadAttributes (592ms)
+			ProcessInitializeOnLoadMethodAttributes (100ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6573 unused Assets / (7.1 MB). Loaded Objects now: 7287.
+Memory consumption went from 154.4 MB to 147.4 MB.
+Total: 13.979500 ms (FindLiveObjects: 1.384300 ms CreateObjectMapping: 0.689400 ms MarkObjects: 6.244400 ms  DeleteObjects: 5.659500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
