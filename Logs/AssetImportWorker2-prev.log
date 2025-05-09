@@ -15,7 +15,7 @@ C:/Users/USER/Desktop/Nueva carpeta/MyProyect
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-54741
+63371
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,14 +59,14 @@ C:/Users/USER/Desktop/Nueva carpeta/MyProyect
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11312]  Target information:
+Player connection [15064]  Target information:
 
-Player connection [11312]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2367660266 [EditorId] 2367660266 [Version] 1048832 [Id] WindowsEditor(7,AlexanderHerrera) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15064]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 807883192 [EditorId] 807883192 [Version] 1048832 [Id] WindowsEditor(7,AlexanderHerrera) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11312]  * "[IP] 192.168.203.128 [Port] 0 [Flags] 2 [Guid] 2367660266 [EditorId] 2367660266 [Version] 1048832 [Id] WindowsEditor(7,AlexanderHerrera) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [15064]  * "[IP] 192.168.92.128 [Port] 0 [Flags] 2 [Guid] 807883192 [EditorId] 807883192 [Version] 1048832 [Id] WindowsEditor(7,AlexanderHerrera) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [11312] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [11312] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15064] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15064] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -78,7 +78,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.45 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.52 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.44f1 (101c91f3a8fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Resources/UnitySubsystems
@@ -94,43 +94,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002788 seconds.
-- Loaded All Assemblies, in  0.468 seconds
+Registered in 0.002751 seconds.
+- Loaded All Assemblies, in  0.497 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.467 seconds
-Domain Reload Profiling: 934ms
-	BeginReloadAssembly (161ms)
+- Finished resetting the current domain, in  0.508 seconds
+Domain Reload Profiling: 1001ms
+	BeginReloadAssembly (171ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (42ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (188ms)
-		LoadAssemblies (157ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (194ms)
+		LoadAssemblies (167ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (185ms)
-			TypeCache.Refresh (183ms)
-				TypeCache.ScanAssembly (166ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (173ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (468ms)
+	FinalizeReload (508ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (408ms)
+		SetupLoadedEditorAssemblies (451ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (31ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (80ms)
-			ProcessInitializeOnLoadAttributes (222ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -139,100 +139,2152 @@ Domain Reload Profiling: 934ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.898 seconds
-Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.860 seconds
+Refreshing native plugins compatible for Editor in 1.68 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.588 seconds
-Domain Reload Profiling: 1480ms
-	BeginReloadAssembly (227ms)
+- Finished resetting the current domain, in  1.065 seconds
+Domain Reload Profiling: 1920ms
+	BeginReloadAssembly (180ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (547ms)
-		LoadAssemblies (470ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (590ms)
+		LoadAssemblies (396ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (210ms)
-			TypeCache.Refresh (153ms)
-				TypeCache.ScanAssembly (139ms)
-			BuildScriptInfoCaches (47ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (588ms)
+		AnalyzeDomain (301ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (185ms)
+			BuildScriptInfoCaches (79ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1066ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (482ms)
+		SetupLoadedEditorAssemblies (898ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (294ms)
-			ProcessInitializeOnLoadMethodAttributes (92ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (186ms)
+			ProcessInitializeOnLoadAttributes (513ms)
+			ProcessInitializeOnLoadMethodAttributes (177ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 206 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6575 unused Assets / (7.3 MB). Loaded Objects now: 7219.
-Memory consumption went from 176.3 MB to 169.0 MB.
-Total: 8.962700 ms (FindLiveObjects: 0.498300 ms CreateObjectMapping: 0.426100 ms MarkObjects: 4.155100 ms  DeleteObjects: 3.882400 ms)
+Unloading 6551 unused Assets / (4.1 MB). Loaded Objects now: 7250.
+Memory consumption went from 172.3 MB to 168.2 MB.
+Total: 12.553300 ms (FindLiveObjects: 1.458600 ms CreateObjectMapping: 0.735900 ms MarkObjects: 7.368100 ms  DeleteObjects: 2.988600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 245768.057819 seconds.
+  path: Assets/Maps/Bosque/tiles/4_0.asset
+  artifactKey: Guid(a23b5c5c6923244e4894ba5194901e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Bosque/tiles/4_0.asset using Guid(a23b5c5c6923244e4894ba5194901e94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '480daf30c2cd3e01afaea4a3aaefb748') in 0.2355614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Maps/Bosque/tiles/8_0.asset
+  artifactKey: Guid(51ca950657de54920ba005a9678d92a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Bosque/tiles/8_0.asset using Guid(51ca950657de54920ba005a9678d92a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93b28f5a9bfa8656d00595d99d094992') in 0.0255961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Maps/Bosque/tiles/16_0.asset
+  artifactKey: Guid(05193d5605fd14ca6bf0b14b9715f1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Bosque/tiles/16_0.asset using Guid(05193d5605fd14ca6bf0b14b9715f1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63b912c89edcb9ba1f75ec45c07bf902') in 0.0294656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Maps/Bosque/tiles/7_0.asset
+  artifactKey: Guid(6f2d8f0b3d4d34b4ba77367900d0bb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Bosque/tiles/7_0.asset using Guid(6f2d8f0b3d4d34b4ba77367900d0bb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75ce9b965097b5203286db2a4b85fdfa') in 0.0447585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Maps/Bosque/tiles/2_0.asset
+  artifactKey: Guid(6c78fe02a46834fa9b1af4635eacc7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maps/Bosque/tiles/2_0.asset using Guid(6c78fe02a46834fa9b1af4635eacc7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53323f79c7b470bdb844584411b2834a') in 0.0289174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.175801 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(3f4dc754cb636a4478a79e0659ca4f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(3f4dc754cb636a4478a79e0659ca4f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7de06d2014afbcb14c666d84eb5bb956') in 0.0008259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.837 seconds
-Refreshing native plugins compatible for Editor in 1.80 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.900 seconds
+Refreshing native plugins compatible for Editor in 3.18 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.313 seconds
-Domain Reload Profiling: 2151ms
-	BeginReloadAssembly (239ms)
+- Finished resetting the current domain, in  0.962 seconds
+Domain Reload Profiling: 1860ms
+	BeginReloadAssembly (250ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (14ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (63ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (515ms)
-		LoadAssemblies (423ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (546ms)
+		LoadAssemblies (452ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (200ms)
-			TypeCache.Refresh (10ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (8ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (176ms)
+			BuildScriptInfoCaches (204ms)
 			ResolveRequiredComponents (12ms)
-	FinalizeReload (1314ms)
+	FinalizeReload (963ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (978ms)
+		SetupLoadedEditorAssemblies (724ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (232ms)
-			ProcessInitializeOnLoadAttributes (627ms)
-			ProcessInitializeOnLoadMethodAttributes (100ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (184ms)
+			ProcessInitializeOnLoadAttributes (441ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
 			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (1ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (20ms)
-Refreshing native plugins compatible for Editor in 2.30 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 40 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6573 unused Assets / (7.8 MB). Loaded Objects now: 7222.
-Memory consumption went from 152.9 MB to 145.2 MB.
-Total: 16.179600 ms (FindLiveObjects: 0.759700 ms CreateObjectMapping: 1.120600 ms MarkObjects: 7.034000 ms  DeleteObjects: 7.262100 ms)
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (4.1 MB). Loaded Objects now: 7261.
+Memory consumption went from 147.7 MB to 143.6 MB.
+Total: 8.457900 ms (FindLiveObjects: 0.545100 ms CreateObjectMapping: 0.512300 ms MarkObjects: 4.891400 ms  DeleteObjects: 2.508100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.769 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.808 seconds
+Domain Reload Profiling: 1573ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (464ms)
+		LoadAssemblies (355ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (186ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (808ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (607ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (374ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (3.9 MB). Loaded Objects now: 7263.
+Memory consumption went from 147.7 MB to 143.8 MB.
+Total: 8.324500 ms (FindLiveObjects: 0.798100 ms CreateObjectMapping: 0.466600 ms MarkObjects: 4.435100 ms  DeleteObjects: 2.623200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.164 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.212 seconds
+Domain Reload Profiling: 2373ms
+	BeginReloadAssembly (368ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (89ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (653ms)
+		LoadAssemblies (519ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (289ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (259ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1213ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (811ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (204ms)
+			ProcessInitializeOnLoadAttributes (495ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 3.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (4.4 MB). Loaded Objects now: 7265.
+Memory consumption went from 149.7 MB to 145.3 MB.
+Total: 12.064500 ms (FindLiveObjects: 1.145400 ms CreateObjectMapping: 1.109800 ms MarkObjects: 6.378900 ms  DeleteObjects: 3.428200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.845 seconds
+Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.901 seconds
+Domain Reload Profiling: 1744ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (553ms)
+		LoadAssemblies (383ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (271ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (241ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (901ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (663ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (4.5 MB). Loaded Objects now: 7267.
+Memory consumption went from 151.6 MB to 147.1 MB.
+Total: 9.460100 ms (FindLiveObjects: 0.789900 ms CreateObjectMapping: 0.626900 ms MarkObjects: 5.132000 ms  DeleteObjects: 2.907900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.080 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.935 seconds
+Domain Reload Profiling: 2014ms
+	BeginReloadAssembly (310ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (22ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (668ms)
+		LoadAssemblies (540ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (287ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (254ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (936ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (643ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (403ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 3.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (4.2 MB). Loaded Objects now: 7269.
+Memory consumption went from 151.5 MB to 147.3 MB.
+Total: 11.523600 ms (FindLiveObjects: 0.690000 ms CreateObjectMapping: 0.661500 ms MarkObjects: 6.734300 ms  DeleteObjects: 3.436000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.775 seconds
+Refreshing native plugins compatible for Editor in 1.52 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.808 seconds
+Domain Reload Profiling: 1581ms
+	BeginReloadAssembly (209ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (485ms)
+		LoadAssemblies (363ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (195ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (808ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (611ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (140ms)
+			ProcessInitializeOnLoadAttributes (390ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (4.0 MB). Loaded Objects now: 7271.
+Memory consumption went from 153.5 MB to 149.5 MB.
+Total: 7.156600 ms (FindLiveObjects: 0.567400 ms CreateObjectMapping: 0.612100 ms MarkObjects: 4.331400 ms  DeleteObjects: 1.643300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.889 seconds
+Refreshing native plugins compatible for Editor in 2.37 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.938 seconds
+Domain Reload Profiling: 1828ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (36ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (558ms)
+		LoadAssemblies (441ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (190ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (939ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (725ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (145ms)
+			ProcessInitializeOnLoadAttributes (501ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (3.7 MB). Loaded Objects now: 7273.
+Memory consumption went from 153.5 MB to 149.8 MB.
+Total: 8.238600 ms (FindLiveObjects: 0.553700 ms CreateObjectMapping: 0.498300 ms MarkObjects: 5.122600 ms  DeleteObjects: 2.063400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.089 seconds
+Refreshing native plugins compatible for Editor in 1.45 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.798 seconds
+Domain Reload Profiling: 1884ms
+	BeginReloadAssembly (307ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (661ms)
+		LoadAssemblies (479ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (315ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (267ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (798ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (587ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (367ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (3.7 MB). Loaded Objects now: 7275.
+Memory consumption went from 153.5 MB to 149.8 MB.
+Total: 9.041100 ms (FindLiveObjects: 0.548000 ms CreateObjectMapping: 0.515700 ms MarkObjects: 5.661000 ms  DeleteObjects: 2.314900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.798 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.177 seconds
+Domain Reload Profiling: 1974ms
+	BeginReloadAssembly (231ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (482ms)
+		LoadAssemblies (384ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (211ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (185ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1178ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (919ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (201ms)
+			ProcessInitializeOnLoadAttributes (559ms)
+			ProcessInitializeOnLoadMethodAttributes (136ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 2.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (4.4 MB). Loaded Objects now: 7277.
+Memory consumption went from 153.5 MB to 149.1 MB.
+Total: 11.979100 ms (FindLiveObjects: 0.830100 ms CreateObjectMapping: 0.655700 ms MarkObjects: 6.878600 ms  DeleteObjects: 3.612800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.049 seconds
+Refreshing native plugins compatible for Editor in 2.49 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.938 seconds
+Domain Reload Profiling: 1986ms
+	BeginReloadAssembly (303ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (656ms)
+		LoadAssemblies (517ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (293ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (261ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (939ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (725ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (441ms)
+			ProcessInitializeOnLoadMethodAttributes (115ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (3.8 MB). Loaded Objects now: 7279.
+Memory consumption went from 153.5 MB to 149.7 MB.
+Total: 8.986400 ms (FindLiveObjects: 0.605300 ms CreateObjectMapping: 0.548500 ms MarkObjects: 5.635000 ms  DeleteObjects: 2.196400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.936 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.998 seconds
+Domain Reload Profiling: 1931ms
+	BeginReloadAssembly (300ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (554ms)
+		LoadAssemblies (444ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (232ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (998ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (694ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (151ms)
+			ProcessInitializeOnLoadAttributes (459ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (4.2 MB). Loaded Objects now: 7281.
+Memory consumption went from 153.5 MB to 149.4 MB.
+Total: 8.121700 ms (FindLiveObjects: 0.595800 ms CreateObjectMapping: 0.484800 ms MarkObjects: 4.876300 ms  DeleteObjects: 2.163700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.784 seconds
+Refreshing native plugins compatible for Editor in 1.87 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.839 seconds
+Domain Reload Profiling: 1623ms
+	BeginReloadAssembly (223ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (479ms)
+		LoadAssemblies (369ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (218ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (189ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (839ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (625ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (141ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (4.5 MB). Loaded Objects now: 7283.
+Memory consumption went from 153.5 MB to 149.1 MB.
+Total: 8.753500 ms (FindLiveObjects: 0.536900 ms CreateObjectMapping: 0.655000 ms MarkObjects: 5.079200 ms  DeleteObjects: 2.481400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1041.738887 seconds.
+  path: Assets/fonts/knight-warrior-font/KnightWarrior-w16n8.otf
+  artifactKey: Guid(98f8248c90cdb4ab5a3d963022eb7707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fonts/knight-warrior-font/KnightWarrior-w16n8.otf using Guid(98f8248c90cdb4ab5a3d963022eb7707) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e05bfdf0a34935a0c63149154ed970ef') in 1.3147123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.142 seconds
+Refreshing native plugins compatible for Editor in 3.16 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.911 seconds
+Domain Reload Profiling: 2047ms
+	BeginReloadAssembly (376ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (54ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (642ms)
+		LoadAssemblies (526ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (274ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (241ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (912ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (649ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (4.1 MB). Loaded Objects now: 7350.
+Memory consumption went from 156.7 MB to 152.5 MB.
+Total: 7.787200 ms (FindLiveObjects: 0.570500 ms CreateObjectMapping: 0.505500 ms MarkObjects: 4.399200 ms  DeleteObjects: 2.309700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 172.034623 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(3f9215ea0144899419cfbc0957140d3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(3f9215ea0144899419cfbc0957140d3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8cb12452edb57ffa0914f90756ed17ef') in 0.322743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Dead__005.png
+  artifactKey: Guid(42bff44301b8d7c42b654128166e9272) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Dead__005.png using Guid(42bff44301b8d7c42b654128166e9272) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a9b6f7a878732829b6e05147b22944ff') in 0.0935433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Settings/Renderer2D.asset
+  artifactKey: Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b068a73d14374efe7e7e565d9863971b') in 0.0795158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Climb_005.png
+  artifactKey: Guid(37fdfe1fa21d8f349bd658a0ed70149e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Climb_005.png using Guid(37fdfe1fa21d8f349bd658a0ed70149e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d82860d570cd9200097c8ec90e0396e') in 0.0591989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Climb_004.png
+  artifactKey: Guid(3bfd6e3d3efb6654f9bdde93d5476a20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Climb_004.png using Guid(3bfd6e3d3efb6654f9bdde93d5476a20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e67418f219c82381d7784256eaa65189') in 0.0336261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/fonts/knight-warrior-font/info.txt
+  artifactKey: Guid(166c14c0effd2415ebf2384d4abd7e2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/fonts/knight-warrior-font/info.txt using Guid(166c14c0effd2415ebf2384d4abd7e2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6921a4a3f8deefd9a7f53e5a2d8f0df0') in 0.0291984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Attack__005.png
+  artifactKey: Guid(cb4a628dc6cd9584ca671017c5d9651b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Attack__005.png using Guid(cb4a628dc6cd9584ca671017c5d9651b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f4ac8f92bf3acd0a2b994a621ef2f74b') in 0.0363628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Personajes/Ninja/Animations/Climb.anim
+  artifactKey: Guid(b0bba97e55aa1bf499c9ebdea451a91f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Animations/Climb.anim using Guid(b0bba97e55aa1bf499c9ebdea451a91f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f92c2987eb84a010061e18c365a02fdf') in 0.0477523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump_Attack__007.png
+  artifactKey: Guid(a8de4cd52dfc3bb40959815bff4594e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Jump_Attack__007.png using Guid(a8de4cd52dfc3bb40959815bff4594e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dee4c625f5b9bfd93e7c120e73cca3ce') in 0.0576113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Climb_001.png
+  artifactKey: Guid(659d57123abc8764eb50f5f850019080) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Climb_001.png using Guid(659d57123abc8764eb50f5f850019080) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff45cc35a2a8348e94ac564e270d009d') in 0.0327678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Idle__007.png
+  artifactKey: Guid(a228f312f01f73849adb014e8b0e9d08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Idle__007.png using Guid(a228f312f01f73849adb014e8b0e9d08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e612ff355644ae202439544f2ae6c3f8') in 0.0292658 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Climb_008.png
+  artifactKey: Guid(ddc5403f69a52c44080c06e06574cb75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Climb_008.png using Guid(ddc5403f69a52c44080c06e06574cb75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5b076c21f9405b3cf31c7c8c15b8aa6') in 0.0402853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Maps/Bosque/tiles/2_0.asset
+  artifactKey: Guid(6c78fe02a46834fa9b1af4635eacc7c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/tiles/2_0.asset using Guid(6c78fe02a46834fa9b1af4635eacc7c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d4e2a270ee26e8af736fcc101508d1d') in 0.0396131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Scripts/ZombieController.cs
+  artifactKey: Guid(4c3533a648da54866b3e336b5ab77dbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/ZombieController.cs using Guid(4c3533a648da54866b3e336b5ab77dbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a699c2d86fda2e8579f8f26fa855f8c9') in 0.0246437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump__004.png
+  artifactKey: Guid(09e9125b91eb03e42af5d0aa80113001) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Jump__004.png using Guid(09e9125b91eb03e42af5d0aa80113001) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd91e451f65029622b9e249871374997c') in 0.0556368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Glide_006.png
+  artifactKey: Guid(38f3039aab2147d40983d459e486c671) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Glide_006.png using Guid(38f3039aab2147d40983d459e486c671) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a490d1314d8b3394c5546c0cd9a946d4') in 0.0564926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Maps/Bosque/tiles/10_0.asset
+  artifactKey: Guid(da9f139316dfb4d5f8688b6bdda84d80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/tiles/10_0.asset using Guid(da9f139316dfb4d5f8688b6bdda84d80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5cf69d0adbb1a6835c343691cd146f0d') in 0.0287391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Scripts/CameraController.cs
+  artifactKey: Guid(93d0a63b84f7c445b80a8ba4b04c54d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/CameraController.cs using Guid(93d0a63b84f7c445b80a8ba4b04c54d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96fd67859f6f9de3ed03519133360d02') in 0.0217516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump__005.png
+  artifactKey: Guid(6c61112346dec4743a86485a3d0013aa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Jump__005.png using Guid(6c61112346dec4743a86485a3d0013aa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '39f9791c38babc2fc5df422fc817e1a6') in 0.0351718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Attack__000.png
+  artifactKey: Guid(f2ca3c11421cf6849a8b7cd913169bda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Attack__000.png using Guid(f2ca3c11421cf6849a8b7cd913169bda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e645331a272cebd1fad0332fc649f14e') in 0.0426867 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Run__004.png
+  artifactKey: Guid(5ec8f4bc63d3d1245a4f435c351d01cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Run__004.png using Guid(5ec8f4bc63d3d1245a4f435c351d01cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '230537d5f2173ca36499b08750d2fffc') in 0.0424793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Scenes/URP2DSceneTemplate.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2094af6361869c31beabe154170cfb93') in 0.02368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Climb_006.png
+  artifactKey: Guid(076ca4eb78414bd4f89d4498cb372285) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Climb_006.png using Guid(076ca4eb78414bd4f89d4498cb372285) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c239194b2c28dde32a4a01c6bd3228db') in 0.0403252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(3f4dc754cb636a4478a79e0659ca4f5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/PlayerController.cs using Guid(3f4dc754cb636a4478a79e0659ca4f5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '801d833aabf4134abaa22f14c5d80f4a') in 0.0202702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Maps/Bosque/tiles/15_0.asset
+  artifactKey: Guid(759cc78b231654b4a82b09a05e6559a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/tiles/15_0.asset using Guid(759cc78b231654b4a82b09a05e6559a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '023d80282c83ee7dcaf261503603da1d') in 0.0250171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Run__005.png
+  artifactKey: Guid(e9491664930921d4ba5d85f054927f00) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Run__005.png using Guid(e9491664930921d4ba5d85f054927f00) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26e34b15ec25883026bf5e6d66bb9d91') in 0.0323703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Slide__003.png
+  artifactKey: Guid(f40b4452aab8cc44b8d224360d88d511) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Slide__003.png using Guid(f40b4452aab8cc44b8d224360d88d511) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c90a1c2edb1a9afce42212455c9bd843') in 0.0492014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Run__001.png
+  artifactKey: Guid(f6cf123d407a62d4b9f7b04753866f1d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Run__001.png using Guid(f6cf123d407a62d4b9f7b04753866f1d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aba551ca5f9d20810f501ea97bda6d6e') in 0.0382679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Idle__000.png
+  artifactKey: Guid(6582b7e5e8492264d8d7a09244ea4d41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Idle__000.png using Guid(6582b7e5e8492264d8d7a09244ea4d41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60f91207e6dae45d02cb5b8e92fac669') in 0.0484584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Idle__003.png
+  artifactKey: Guid(33af3e6e7b83faa4b8ba40d5f4beff9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Idle__003.png using Guid(33af3e6e7b83faa4b8ba40d5f4beff9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9875d31285816cb112342ad8ec589f1') in 0.0365711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Dead__003.png
+  artifactKey: Guid(52c16e568f2c6264e86a8f129c326f3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Dead__003.png using Guid(52c16e568f2c6264e86a8f129c326f3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4248abb19fd0b53232d092c491256a39') in 0.0353112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Throw__004.png
+  artifactKey: Guid(3ea2ecf247613ef4dbd44d0c183529e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Throw__004.png using Guid(3ea2ecf247613ef4dbd44d0c183529e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '158c6b097e897e436027f529face63cb') in 0.0540839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Throw__000.png
+  artifactKey: Guid(791151228f4d8de4db07f3edf658bd75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Throw__000.png using Guid(791151228f4d8de4db07f3edf658bd75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea9f18e87dfb7510f1054ad409faa719') in 0.056623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Slide__008.png
+  artifactKey: Guid(69c9d4ec0e860fe4cb8d5e62a2d08508) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Slide__008.png using Guid(69c9d4ec0e860fe4cb8d5e62a2d08508) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '01c10c9a594119b07697559358f9f12a') in 0.0593787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Throw__003.png
+  artifactKey: Guid(5fa2ceb93d7739e4385a3cd677865838) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Throw__003.png using Guid(5fa2ceb93d7739e4385a3cd677865838) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e183e1c84422e0a3bc42a0dfe31e6ed0') in 0.0559445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump_Attack__005.png
+  artifactKey: Guid(c9e2b33b9ab67f249b74e56177185e31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Jump_Attack__005.png using Guid(c9e2b33b9ab67f249b74e56177185e31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '049e7d817a948bfc9a15645710907878') in 0.0379384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Maps/Bosque/png/Object/Bush (3).png
+  artifactKey: Guid(59e203ff9d3cf4bc4a40088fa56f605b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/png/Object/Bush (3).png using Guid(59e203ff9d3cf4bc4a40088fa56f605b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5770537d3e34452afc056b38b0629de') in 0.0350585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Maps/Bosque/png/Object/Bush (1).png
+  artifactKey: Guid(72e380a1bf24c40389fd68bab12df6d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/png/Object/Bush (1).png using Guid(72e380a1bf24c40389fd68bab12df6d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c58f9ae52c98c4659f8cae91e39029b') in 0.0372176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Throw__009.png
+  artifactKey: Guid(979e14a1edb958a468df4425d06c3c35) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Throw__009.png using Guid(979e14a1edb958a468df4425d06c3c35) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e78aeda5beca9a0b0abe38d72efe2dc') in 0.0526969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump_Throw__002.png
+  artifactKey: Guid(6aa36911f36f56f42bc67a17667180e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Jump_Throw__002.png using Guid(6aa36911f36f56f42bc67a17667180e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c2d16dc7e484241738b2158a1dc48f8') in 0.0576223 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Dead__008.png
+  artifactKey: Guid(b16416eb0c0e76343ad2b2470cae0c63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Dead__008.png using Guid(b16416eb0c0e76343ad2b2470cae0c63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a933db75c67912754354f006e2fa59d9') in 0.0350268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Maps/Bosque/png/Object/Sign_1.png
+  artifactKey: Guid(60b99ae05c61a4a6cbf6f1071dbf1aff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/png/Object/Sign_1.png using Guid(60b99ae05c61a4a6cbf6f1071dbf1aff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6e5cf2f736edb2695ac0c07dc404b999') in 0.0397772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Maps/Bosque/png/Tiles/10.png
+  artifactKey: Guid(d40d0e24e1841465299d892ade1e50f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/png/Tiles/10.png using Guid(d40d0e24e1841465299d892ade1e50f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2dd649da107c17836b61d66e2a7e809e') in 0.0391649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Maps/Bosque/png/Tiles/1.png
+  artifactKey: Guid(56c7275e07e374cb1a25436d1a989f2d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/png/Tiles/1.png using Guid(56c7275e07e374cb1a25436d1a989f2d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92cc80419017eadb6d0a105b7c6af56b') in 0.0313435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump_Throw__000.png
+  artifactKey: Guid(f122fa42df9954d4bb5ea5c8a9b740b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Jump_Throw__000.png using Guid(f122fa42df9954d4bb5ea5c8a9b740b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69a1ab8889b12fe7d45f50a1ae854901') in 0.0535464 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump__000.png
+  artifactKey: Guid(2737f8006d4a15045ba3ad8e54d6769d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Jump__000.png using Guid(2737f8006d4a15045ba3ad8e54d6769d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e98e8722662063f2294d6c56e2a5554c') in 0.0351294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Maps/Bosque/png/Tiles/17.png
+  artifactKey: Guid(4c3208ae9c37849698c8b7746c86ea53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/png/Tiles/17.png using Guid(4c3208ae9c37849698c8b7746c86ea53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '449e2d44a59f90d5a7846ac557545d98') in 0.0412739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Maps/Bosque/png/Tiles/18.png
+  artifactKey: Guid(05f0420e8a0ca4269a6373147f770c85) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/png/Tiles/18.png using Guid(05f0420e8a0ca4269a6373147f770c85) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '197c2fb9bf3c230ea878a759fd20c0d8') in 0.0413976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Maps/Bosque/png/Tiles/15.png
+  artifactKey: Guid(4c19c4b55523541d3b1a019673cc45e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/png/Tiles/15.png using Guid(4c19c4b55523541d3b1a019673cc45e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '912c25b085952f84c9ac0d2825a9d83f') in 0.0310512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump_Throw__004.png
+  artifactKey: Guid(88b674c8312911842a232ff5b49b211d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Jump_Throw__004.png using Guid(88b674c8312911842a232ff5b49b211d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8241beaa38efa00b5ca42e527fdd5124') in 0.046637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Maps/Bosque/tiles/8_0.asset
+  artifactKey: Guid(51ca950657de54920ba005a9678d92a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/tiles/8_0.asset using Guid(51ca950657de54920ba005a9678d92a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e6155e984d72f7e9370e87a83555e57') in 0.0250226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Personajes/Ninja/Animations/Idle.anim
+  artifactKey: Guid(a302e305ebb24674c853a08cfe9814c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Animations/Idle.anim using Guid(a302e305ebb24674c853a08cfe9814c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f553134f409651561f3ea74b294ff7d') in 0.0251001 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Maps/Bosque/png/Tiles/9.png
+  artifactKey: Guid(587aa3f10b6f64c6fb4515d781d07b78) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/png/Tiles/9.png using Guid(587aa3f10b6f64c6fb4515d781d07b78) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a0c7341876d2828de4397e8bfd4f18b') in 0.0417406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/female/Attack (3).png
+  artifactKey: Guid(7d482323bd69542e0869c3ef55a8bfb7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/female/Attack (3).png using Guid(7d482323bd69542e0869c3ef55a8bfb7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '93d7b77c4a31e5a6d43f408bef596ed8') in 0.0589641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scenes/Scena2.unity
+  artifactKey: Guid(f8f42c850e16c6e4b91593e2bd298ff0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Scena2.unity using Guid(f8f42c850e16c6e4b91593e2bd298ff0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6ddb42310da9984595e9db2a089ee060') in 0.0209724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sonidos/smb_bump.wav
+  artifactKey: Guid(16231b15f27004a559bc1eefea6ee10d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sonidos/smb_bump.wav using Guid(16231b15f27004a559bc1eefea6ee10d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37a16498a70b2c00ff245bc8555efeac') in 0.0662365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump_Throw__006.png
+  artifactKey: Guid(fd5033a6da650b645b6c371d34a5033e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Jump_Throw__006.png using Guid(fd5033a6da650b645b6c371d34a5033e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e0b1c0226cdd9c0b2c62d2d4490b2c6') in 0.0544827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/female/Dead (3).png
+  artifactKey: Guid(d19ec82b84589493492f73b931c58a67) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/female/Dead (3).png using Guid(d19ec82b84589493492f73b931c58a67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8297830aa10fb4e0795df62ba9f2cfd') in 0.0609008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/female/Attack (7).png
+  artifactKey: Guid(a8431a7e618b74c8bbeab26275574aa0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/female/Attack (7).png using Guid(a8431a7e618b74c8bbeab26275574aa0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f44e72f3a713537fc765b2fdc57e7efe') in 0.0565969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Run__009.png
+  artifactKey: Guid(8e72f4f1721c71641bdb198bf88b6be8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Run__009.png using Guid(8e72f4f1721c71641bdb198bf88b6be8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aea11826d4862f387c3a9828be6ca06c') in 0.0344864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump__001.png
+  artifactKey: Guid(2ec851eb2497e494b9b7437e759abf1b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Jump__001.png using Guid(2ec851eb2497e494b9b7437e759abf1b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0196596a03ca7480fc630f6f9e469f76') in 0.0327293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Dead__006.png
+  artifactKey: Guid(21ceb3be8ef47ef44acfd9d6f58d2c2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Dead__006.png using Guid(21ceb3be8ef47ef44acfd9d6f58d2c2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f33c3b0e3ffa82104f050cd643c40f13') in 0.0361205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/female/Dead (7).png
+  artifactKey: Guid(064e7a73fe86f4e328dab65446622f09) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/female/Dead (7).png using Guid(064e7a73fe86f4e328dab65446622f09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41b636796f82dd500e8185221bd48e6d') in 0.0624076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Maps/Bosque/png/Tiles/6.png
+  artifactKey: Guid(38406c5cdd691460e9904005353e231a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/png/Tiles/6.png using Guid(38406c5cdd691460e9904005353e231a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c8a3a8d644c29404583319997da4285b') in 0.0371144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Maps/Bosque/tiles/3_0.asset
+  artifactKey: Guid(2fd53f2c70e2147cb870f858eec8d4df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/tiles/3_0.asset using Guid(2fd53f2c70e2147cb870f858eec8d4df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11b1744b9a2fc29a357d3553185ad3ad') in 0.0259848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Attack__007.png
+  artifactKey: Guid(cda6979be7842754e93684eedbf46b55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Attack__007.png using Guid(cda6979be7842754e93684eedbf46b55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bce4814086281c75f298ced8a0745cb2') in 0.0382621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Dead__004.png
+  artifactKey: Guid(e1d9e32648ccebb498a5047a0edc29a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Dead__004.png using Guid(e1d9e32648ccebb498a5047a0edc29a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c1c9e9c29329f5a170c9b3fe0d0e3de') in 0.0376799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/fonts/knight-warrior-font/KnightWarrior-w16n8.otf
+  artifactKey: Guid(98f8248c90cdb4ab5a3d963022eb7707) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/fonts/knight-warrior-font/KnightWarrior-w16n8.otf using Guid(98f8248c90cdb4ab5a3d963022eb7707) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c6de3ff29be1bc2c38843e75417e1b9') in 0.0476113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/female/Idle (3).png
+  artifactKey: Guid(e4c912696b7634101ab78667df2e4b13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/female/Idle (3).png using Guid(e4c912696b7634101ab78667df2e4b13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '866c04e9a68ea3020f3a4ba89900d825') in 0.0535463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/female/Idle (2).png
+  artifactKey: Guid(c9bd404acda3943a8af8e2dbfe14a7b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/female/Idle (2).png using Guid(c9bd404acda3943a8af8e2dbfe14a7b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16884c34f3c1724dc3511d93f05f2a82') in 0.0598401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/female/Idle (7).png
+  artifactKey: Guid(c44c3792329034b26816e5d39e43486a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/female/Idle (7).png using Guid(c44c3792329034b26816e5d39e43486a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b24e8ed1257ef6ab57e57cc958b4b3a') in 0.0556726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Maps/Bosque/png/Tiles/4.png
+  artifactKey: Guid(54fc4ad01374247f89e005e606c62513) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/png/Tiles/4.png using Guid(54fc4ad01374247f89e005e606c62513) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eeb731e817c92033c021eedddb7434c2') in 0.0398162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump__007.png
+  artifactKey: Guid(2d568c705fc324b4fab9db4564b7ab77) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Jump__007.png using Guid(2d568c705fc324b4fab9db4564b7ab77) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec4cb3bf86e7063a72e91b8850794297') in 0.0394804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/female/Walk (10).png
+  artifactKey: Guid(a23c2d97c30ba44b591ccd55b649e567) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/female/Walk (10).png using Guid(a23c2d97c30ba44b591ccd55b649e567) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '663a31f29af64791986182c3bb59c935') in 0.0325541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Glide_003.png
+  artifactKey: Guid(ef2f1a72c9e0b814daf7e73026234cd1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Glide_003.png using Guid(ef2f1a72c9e0b814daf7e73026234cd1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db88aab4971d6bd45bec5b862242c1ca') in 0.0363195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Maps/Bosque/tiles/17_0.asset
+  artifactKey: Guid(29c5aa1f8a0854c5c8ae574b71c837d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/tiles/17_0.asset using Guid(29c5aa1f8a0854c5c8ae574b71c837d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ca1cbb14f5dc41fb56d590f74b21bcd') in 0.0330192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Dead__000.png
+  artifactKey: Guid(eeb84e354f30a994eb67f52e7288a603) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Dead__000.png using Guid(eeb84e354f30a994eb67f52e7288a603) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7225400125f50e9daae2b768a702208c') in 0.0426244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Glide_009.png
+  artifactKey: Guid(b68dce4c0f4a85941b32a855ba50fd77) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Glide_009.png using Guid(b68dce4c0f4a85941b32a855ba50fd77) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74c57c4f35b2b73615049a408184360a') in 0.0408744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/male/Dead (1).png
+  artifactKey: Guid(f78779cb5fca547bb90322057e84a5e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/male/Dead (1).png using Guid(f78779cb5fca547bb90322057e84a5e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4908ea31018c924519da2b8a42e6dc50') in 0.0683244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Maps/Bosque/tiles/16_0.asset
+  artifactKey: Guid(05193d5605fd14ca6bf0b14b9715f1f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/tiles/16_0.asset using Guid(05193d5605fd14ca6bf0b14b9715f1f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48ba9a96ca6101622b44f1a11c723631') in 0.0301014 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Maps/Bosque/png/Object/Mushroom_1.png
+  artifactKey: Guid(752860b6e01ee4f97b4cef71af5dafd6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/png/Object/Mushroom_1.png using Guid(752860b6e01ee4f97b4cef71af5dafd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3cc433a3ea5646f4c0f4ab3aef09b63d') in 0.0453591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
+  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b50d860fd09e55627da4dbe523d0fd2') in 0.0930575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Climb_009.png
+  artifactKey: Guid(e26dd1d8923e02c44b532b95e67b9acc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Climb_009.png using Guid(e26dd1d8923e02c44b532b95e67b9acc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9bc747a952f48edd914b3614e6c2b8f') in 0.0429254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/male/Idle (14).png
+  artifactKey: Guid(c3b86678447d84eb09fe6404b96008ac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/male/Idle (14).png using Guid(c3b86678447d84eb09fe6404b96008ac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d7ae24c19b114241eb5069122b8b209') in 0.067269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/male/Dead (7).png
+  artifactKey: Guid(98ef0199c8ade424784fa5d9d1b18f6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/male/Dead (7).png using Guid(98ef0199c8ade424784fa5d9d1b18f6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa7a5a4564f8c46901a34975608552bf') in 0.0637424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/female/Attack (1).png
+  artifactKey: Guid(a5ed1aae9938e45eb8a52a41ecd02eb3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/female/Attack (1).png using Guid(a5ed1aae9938e45eb8a52a41ecd02eb3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8bf1facb9b1edcd226ec45cac08c9f58') in 0.0650045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Jump_Attack__003.png
+  artifactKey: Guid(9abcc374562e6f14ebf4c5c0788b1c9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Jump_Attack__003.png using Guid(9abcc374562e6f14ebf4c5c0788b1c9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '400ac6ed9aeb912218b9b723cba82ceb') in 0.0462383 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scripts/KunaiController.cs
+  artifactKey: Guid(0f7b126d08a3043e08d23ecb86055327) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/KunaiController.cs using Guid(0f7b126d08a3043e08d23ecb86055327) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '556adb22b1f90605b6bb40399d6f0ee6') in 0.0227819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/male/Walk (1).png
+  artifactKey: Guid(a40463261ca41439eb028690396699a1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/male/Walk (1).png using Guid(a40463261ca41439eb028690396699a1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c28cebc0083432408b66f136d590a6b0') in 0.0452106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/male/Walk (6).png
+  artifactKey: Guid(0a7efe74c1e1c45919ca0182b9e2e9e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/male/Walk (6).png using Guid(0a7efe74c1e1c45919ca0182b9e2e9e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2159b6506ea3ad4e1060914def5cd9e5') in 0.048253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/male/Walk (7).png
+  artifactKey: Guid(6d155aa8c01dc4aa6800f352602a35bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/male/Walk (7).png using Guid(6d155aa8c01dc4aa6800f352602a35bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aeb39701e39e72c4d9cebe27a78648ec') in 0.0471077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Attack__009.png
+  artifactKey: Guid(241c582951dacc342bacc7172c199d07) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Attack__009.png using Guid(241c582951dacc342bacc7172c199d07) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81b72f7169b9172876a26940fec1e881') in 0.0453731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/male/Attack (4).png
+  artifactKey: Guid(b6492a64608eb4bec94b5a198efbbd45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/male/Attack (4).png using Guid(b6492a64608eb4bec94b5a198efbbd45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7285fdb55eb2bc5dc8582cc87aac1fc') in 0.0570901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/female/Dead (8).png
+  artifactKey: Guid(85074d4df4c3f4da2b796f63cc4b534d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/female/Dead (8).png using Guid(85074d4df4c3f4da2b796f63cc4b534d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ca10c38b79d6a62c7900e1662cc7423') in 0.0556861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/male/Attack (8).png
+  artifactKey: Guid(f98a1a14ef0c84c778e2f7bff5436c74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/male/Attack (8).png using Guid(f98a1a14ef0c84c778e2f7bff5436c74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df73e8156f38527a5546faa6345f9515') in 0.0713561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/male/Attack (6).png
+  artifactKey: Guid(5244d7b0c324c47d995d9a5827f4a957) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/male/Attack (6).png using Guid(5244d7b0c324c47d995d9a5827f4a957) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27fe7ee780de32d4a8fed3245011247b') in 0.0641696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/female/Dead (9).png
+  artifactKey: Guid(87e3625eb15ea4e2f99f7149dff6fd0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/female/Dead (9).png using Guid(87e3625eb15ea4e2f99f7149dff6fd0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72c221c755329591286cf972aadc3c2b') in 0.0542954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/male/Dead (5).png
+  artifactKey: Guid(caeddb01851434690817033ffef40506) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/male/Dead (5).png using Guid(caeddb01851434690817033ffef40506) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc6287fecd254c14f46893fac963236c') in 0.0518778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Glide_002.png
+  artifactKey: Guid(a34721cda91b2574f883fd96d5683949) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Glide_002.png using Guid(a34721cda91b2574f883fd96d5683949) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44d5eaa9b3ee7000a63352d894b676e6') in 0.0371344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Throw__007.png
+  artifactKey: Guid(0b3fc188155312047b4f8973aa4ff5e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Throw__007.png using Guid(0b3fc188155312047b4f8973aa4ff5e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b4deb08e2ebf570efbca93afddf5350') in 0.0662077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Slide__006.png
+  artifactKey: Guid(4cc0d428bc84d524194de1acaa881f86) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Slide__006.png using Guid(4cc0d428bc84d524194de1acaa881f86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88023d53755e0e05a4556387a2eaa9fd') in 0.0662109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Maps/Bosque/png/Object/Tree_2.png
+  artifactKey: Guid(b0bc29a0520394c9ba04a212831a79da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/png/Object/Tree_2.png using Guid(b0bc29a0520394c9ba04a212831a79da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e21079897027d3390254e0a07f81ce75') in 0.0418052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Personajes/Ninja/Animations/NinjaAnimator.controller
+  artifactKey: Guid(02fba437031557f4ca0048b8ae785d02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Animations/NinjaAnimator.controller using Guid(02fba437031557f4ca0048b8ae785d02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b7d98946f035dc7662540fc9ca49415') in 0.0327824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/female/Idle (9).png
+  artifactKey: Guid(e7a0545fd2f7a451b983c66d5e5d08bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/female/Idle (9).png using Guid(e7a0545fd2f7a451b983c66d5e5d08bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2eac85c17f1e9ab3ea38226247592c9c') in 0.059926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Glide_000.png
+  artifactKey: Guid(a37f9ef32a659f24bac0121600a0732b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Glide_000.png using Guid(a37f9ef32a659f24bac0121600a0732b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df405d407d1f76191f5a35dd04123f0b') in 0.0426554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Prefabs/KunaiPrefab.prefab
+  artifactKey: Guid(f886f91a22f89458d8202465fc3b456d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/KunaiPrefab.prefab using Guid(f886f91a22f89458d8202465fc3b456d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7563326b006d9932b6d04e7b55bdb0c7') in 0.0890336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Maps/Bosque/png/Object/Mushroom_2.png
+  artifactKey: Guid(a55bcbdf91a54475fa2c538465a17b04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/png/Object/Mushroom_2.png using Guid(a55bcbdf91a54475fa2c538465a17b04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '028673c8460c9a9f15e80eb5898dfeb2') in 0.0414951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Maps/Bosque/tiles/9_0.asset
+  artifactKey: Guid(c62d5a5e7b570422a8306874ce1d8776) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/tiles/9_0.asset using Guid(c62d5a5e7b570422a8306874ce1d8776) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd498ec154ca1a69451b9c39f8e7277b5') in 0.0291836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Throw__005.png
+  artifactKey: Guid(a84d5857c9f28854e8b135cfba5850d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Throw__005.png using Guid(a84d5857c9f28854e8b135cfba5850d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e564b40d7f886e640c0599820455319') in 0.0594039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Maps/Bosque/png/Object/Crate.png
+  artifactKey: Guid(d03f5e99a92644068ab814adf49ac0d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maps/Bosque/png/Object/Crate.png using Guid(d03f5e99a92644068ab814adf49ac0d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b9d12c2b1f0e702b9e376faf0da802a') in 0.0367611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Personajes/Ninja/Sprites/Attack__002.png
+  artifactKey: Guid(6de64e0629e57074c827de8fb1dc7df2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Ninja/Sprites/Attack__002.png using Guid(6de64e0629e57074c827de8fb1dc7df2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38bd86b1c9cef34752da50bdbcaf0d0a') in 0.0391013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Personajes/Enemies/Zombies/png/female/Idle (5).png
+  artifactKey: Guid(0fffdd1c034384aeb9981841375ad23f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Personajes/Enemies/Zombies/png/female/Idle (5).png using Guid(0fffdd1c034384aeb9981841375ad23f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c1dfc6815f93ec21de3a3d249497d3b') in 0.0630241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.953 seconds
+Refreshing native plugins compatible for Editor in 2.15 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.052 seconds
+Domain Reload Profiling: 2003ms
+	BeginReloadAssembly (272ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (21ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (573ms)
+		LoadAssemblies (428ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (236ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1052ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (807ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (542ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 2.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6550 unused Assets / (4.0 MB). Loaded Objects now: 7352.
+Memory consumption went from 156.6 MB to 152.6 MB.
+Total: 9.052400 ms (FindLiveObjects: 0.622800 ms CreateObjectMapping: 0.550200 ms MarkObjects: 5.559000 ms  DeleteObjects: 2.319300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 228.447910 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2d84742e0e8ebafbb434f1d46d0ee23') in 0.0052641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.125 seconds
+Refreshing native plugins compatible for Editor in 2.13 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.124 seconds
+Domain Reload Profiling: 2246ms
+	BeginReloadAssembly (304ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (690ms)
+		LoadAssemblies (585ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (279ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (246ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1125ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (885ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (154ms)
+			ProcessInitializeOnLoadAttributes (628ms)
+			ProcessInitializeOnLoadMethodAttributes (86ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 2.20 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (4.0 MB). Loaded Objects now: 7354.
+Memory consumption went from 156.6 MB to 152.5 MB.
+Total: 10.145500 ms (FindLiveObjects: 0.794100 ms CreateObjectMapping: 0.672900 ms MarkObjects: 6.127000 ms  DeleteObjects: 2.550100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.920 seconds
+Refreshing native plugins compatible for Editor in 1.81 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.011 seconds
+Domain Reload Profiling: 1927ms
+	BeginReloadAssembly (248ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (561ms)
+		LoadAssemblies (426ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (259ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (231ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1011ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (765ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (497ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 2.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (5.2 MB). Loaded Objects now: 7356.
+Memory consumption went from 156.6 MB to 151.5 MB.
+Total: 11.195500 ms (FindLiveObjects: 0.745900 ms CreateObjectMapping: 0.591800 ms MarkObjects: 6.109000 ms  DeleteObjects: 3.747100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.902 seconds
+Refreshing native plugins compatible for Editor in 2.20 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.048 seconds
+Domain Reload Profiling: 1949ms
+	BeginReloadAssembly (241ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (556ms)
+		LoadAssemblies (418ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (230ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1048ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (797ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (172ms)
+			ProcessInitializeOnLoadAttributes (516ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 2.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (4.1 MB). Loaded Objects now: 7358.
+Memory consumption went from 156.6 MB to 152.5 MB.
+Total: 12.105100 ms (FindLiveObjects: 0.717400 ms CreateObjectMapping: 0.598600 ms MarkObjects: 7.586200 ms  DeleteObjects: 3.200900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 196.035180 seconds.
+  path: Assets/fonts/knight-warrior-font/info.txt
+  artifactKey: Guid(166c14c0effd2415ebf2384d4abd7e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fonts/knight-warrior-font/info.txt using Guid(166c14c0effd2415ebf2384d4abd7e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ca5f83d0b935867ca42846269a4cb5b') in 0.0480143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.844429 seconds.
+  path: Assets/fonts/knight-warrior-font/misc
+  artifactKey: Guid(0786c00aa8eda4122aca54bd0ccaa5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fonts/knight-warrior-font/misc using Guid(0786c00aa8eda4122aca54bd0ccaa5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c08533e80939ed85a53882483fe342b1') in 0.0021072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.039187 seconds.
+  path: Assets/fonts/knight-warrior-font/misc/READ THIS NOTE FOR BEFORE YOU DECIDE INSTALL THIS FONT !!!!.txt
+  artifactKey: Guid(3c9812f049fb94cb3b81c12e304d2aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/fonts/knight-warrior-font/misc/READ THIS NOTE FOR BEFORE YOU DECIDE INSTALL THIS FONT !!!!.txt using Guid(3c9812f049fb94cb3b81c12e304d2aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bd7770c59e159dc0710ed4ff48f3d91') in 0.0020749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.044 seconds
+Refreshing native plugins compatible for Editor in 2.24 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.994 seconds
+Domain Reload Profiling: 2035ms
+	BeginReloadAssembly (295ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (628ms)
+		LoadAssemblies (521ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (233ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (995ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (753ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (488ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (4.1 MB). Loaded Objects now: 7360.
+Memory consumption went from 156.6 MB to 152.5 MB.
+Total: 9.221000 ms (FindLiveObjects: 0.630400 ms CreateObjectMapping: 0.567500 ms MarkObjects: 5.870700 ms  DeleteObjects: 2.151500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 138.668249 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(3f4dc754cb636a4478a79e0659ca4f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(3f4dc754cb636a4478a79e0659ca4f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef246f4675a293d640ddeccf8073a112') in 0.0053283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.083 seconds
+Refreshing native plugins compatible for Editor in 3.19 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.235 seconds
+Domain Reload Profiling: 2318ms
+	BeginReloadAssembly (284ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (698ms)
+		LoadAssemblies (527ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (295ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (250ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1236ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (947ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (239ms)
+			ProcessInitializeOnLoadAttributes (587ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 2.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (3.9 MB). Loaded Objects now: 7362.
+Memory consumption went from 156.6 MB to 152.7 MB.
+Total: 11.827700 ms (FindLiveObjects: 0.944900 ms CreateObjectMapping: 0.577300 ms MarkObjects: 6.316800 ms  DeleteObjects: 3.987000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.970 seconds
+Refreshing native plugins compatible for Editor in 2.32 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.226 seconds
+Domain Reload Profiling: 2197ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (618ms)
+		LoadAssemblies (462ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (273ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (241ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1227ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (946ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (641ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 3.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (4.2 MB). Loaded Objects now: 7364.
+Memory consumption went from 156.6 MB to 152.3 MB.
+Total: 15.539700 ms (FindLiveObjects: 1.078100 ms CreateObjectMapping: 1.037700 ms MarkObjects: 9.156100 ms  DeleteObjects: 4.265600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 55.482708 seconds.
+  path: Assets/Scripts/PlayerController.cs
+  artifactKey: Guid(3f4dc754cb636a4478a79e0659ca4f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerController.cs using Guid(3f4dc754cb636a4478a79e0659ca4f5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1a1d568598038468b9be707f8ba975a') in 0.0056514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.894 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.151 seconds
+Domain Reload Profiling: 2044ms
+	BeginReloadAssembly (246ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (555ms)
+		LoadAssemblies (417ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (256ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (224ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1151ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (906ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (624ms)
+			ProcessInitializeOnLoadMethodAttributes (104ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 3.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (3.5 MB). Loaded Objects now: 7366.
+Memory consumption went from 156.6 MB to 153.1 MB.
+Total: 15.672400 ms (FindLiveObjects: 1.281100 ms CreateObjectMapping: 0.989300 ms MarkObjects: 10.169100 ms  DeleteObjects: 3.230800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.912 seconds
+Refreshing native plugins compatible for Editor in 2.26 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.000 seconds
+Domain Reload Profiling: 1909ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (570ms)
+		LoadAssemblies (419ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (238ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1000ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (760ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (496ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 1.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (4.4 MB). Loaded Objects now: 7368.
+Memory consumption went from 156.6 MB to 152.3 MB.
+Total: 9.871600 ms (FindLiveObjects: 0.667100 ms CreateObjectMapping: 0.549800 ms MarkObjects: 5.988100 ms  DeleteObjects: 2.665600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.903 seconds
+Refreshing native plugins compatible for Editor in 2.11 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.014 seconds
+Domain Reload Profiling: 1915ms
+	BeginReloadAssembly (241ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (563ms)
+		LoadAssemblies (419ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (231ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1014ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (772ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (178ms)
+			ProcessInitializeOnLoadAttributes (475ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 1.90 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6549 unused Assets / (4.1 MB). Loaded Objects now: 7370.
+Memory consumption went from 156.7 MB to 152.5 MB.
+Total: 10.319300 ms (FindLiveObjects: 0.626300 ms CreateObjectMapping: 0.610800 ms MarkObjects: 6.317800 ms  DeleteObjects: 2.762600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
