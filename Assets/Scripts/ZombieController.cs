@@ -3,7 +3,7 @@ using UnityEngine;
 public class ZombieController : MonoBehaviour
 {
 
-    public int puntosVida = 1;
+    public int puntosVida = 3;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
